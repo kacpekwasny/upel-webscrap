@@ -1,5 +1,5 @@
-from constatns import LOGIN_URL_POST, LOGIN_URL_GET, ID_KURSU_Z_ANALIZY
-from secrets import NUMER_INDEXU, HASLO
+from constatns import LOGIN_URL_POST, LOGIN_URL_GET, COURSE_ID
+from secrets import USERNAME, PASSWORD
 import requests
 from bs4 import BeautifulSoup
 
@@ -17,24 +17,29 @@ def main():
     data = {
     'anchor': '',
     'logintoken': logintoken,
-    'username': NUMER_INDEXU,
-    'password': HASLO,
+    'username': USERNAME,
+    'password': PASSWORD,
     'rememberusername': '1'
     }
     login_post_page = s.post(LOGIN_URL_POST, data=data)
 
     params = (
-        ('id', '1464'),
+        ('id', COURSE_ID),
     )
     course_page = s.get('https://upel2.cel.agh.edu.pl/wiet/course/view.php', params=params)
 
     course = BeautifulSoup(course_page.content, "html.parser")
     online = course.find_all(class_="listentry")
+    leszek_online = False
     for user in online:
         if user.text == "Lech Adamus":
-            print("Leszek jest online, jest nadzieja!")
-        else:
-            print("Jesteśmy zgubieni!")
+            leszek_online = True
+            break
+        
+    if leszek_online:
+        print("Leszek jest online, jest nadzieja!")
+    else:
+        print("O nie! Jesteśmy zgubieni!")
 
 
 
