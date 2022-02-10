@@ -30,7 +30,7 @@ def time_since_last_login(s, profile_url):
 
     # find time since "Last access to site"
     last_activity = profile.find(id="region-main").find_all("div")[0].find_all("div")[0].find_all("div")[0].find_all("section")[3].find_all("div")[0].find_all("ul")[0].find_all("li")[1]
-    return last_activity.text.split("(")[1].strip(")") # to pretty string
+    return last_activity.text.split("(")[1].strip(")") # to pretty string, ex.: 15 mins 12 secs
 
 def less_than_5min(string):
     """return time since last access < 5 minutes"""
@@ -51,7 +51,9 @@ def less_than_5min(string):
 
 def main():
     s = login(LOGIN_URL, USERNAME, PASSWORD)  
-    if less_than_5min(time_since_last_login(s, "https://upel2.cel.agh.edu.pl/wiet/user/profile.php?id=7838")):
+    time_str = time_since_last_login(s, "https://upel2.cel.agh.edu.pl/wiet/user/profile.php?id=7838")
+    print(time_str)
+    if less_than_5min(time_str):
         print("Leszek jest online, jest nadzieja!")
     else:
         print("O nie! Jesteśmy zgubieni!")
