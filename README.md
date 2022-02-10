@@ -9,3 +9,9 @@ USERNAME = "123456"
 PASSWORD = "Password"
 ```
 
+Example output:
+```sh
+upel-webscrap> python main.py
+13 secs
+Leszek jest online, jest nadzieja!
+```
