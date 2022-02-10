@@ -15,9 +15,8 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("Connected with: ", [guild.name for guild in client.guilds])
-    t = threading.Thread(target=fuu.watch_loop)
-    t.start()
-
+    asyncio.create_task(fuu.watch_loop())
+    
 
 @client.event
 async def on_message(message):
@@ -30,7 +29,7 @@ async def on_message(message):
         return
 
     print("running command: ", message.content)
-    fuu.run_command(message)
+    await fuu.run_command(message)
 
 
 client.run(DISCORD_TOKEN)
