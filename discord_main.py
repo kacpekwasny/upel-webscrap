@@ -50,6 +50,8 @@ If you see a message indicating success then you can proceed with the next step:
 `-getgrades <anal/alg/wdsi/pt/ask>` example: `-getgrades pt`.
 or `-getgrades wxyz` example: `-getgrades 1477` beacuse 1477 is the course id of Podstawy Telekomunikacji.
 The id can be found in the URL the same way as id of UPEL profile id.
+
+The source code for this bot can be found here: https://github.com/kacpekwasny/upel-webscrap/tree/discord
 """
         )
 
