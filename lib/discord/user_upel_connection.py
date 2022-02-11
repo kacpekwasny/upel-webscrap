@@ -69,14 +69,14 @@ class UsersCredentialManager:
             self.user_connections[msg.author.id] = u
             await msg.channel.send("Successfully logged in to your UPEL account.")
         except ValueError:
-            await msg.channel.send("Could not log in, make sure credentials are correct.")
+            await msg.channel.send("Could not log in, make sure credentials are correct.\n`-help` for more info!")
 
     async def remove_account(self, msg):
         if msg.author.id in self.user_connections:
             del self.user_connections[msg.author.id]
             await msg.channel.send("Credentials successfully deleted without a trace.")
             return
-        await msg.channel.send("No UPEL credentials associated with your discord user were found.")
+        await msg.channel.send("No UPEL credentials associated with your discord user were found.\n`-help` for more info!")
 
     async def get_grades(self, msg):
         try:
@@ -86,7 +86,7 @@ class UsersCredentialManager:
             if not str(course_id).isdigit():
                 raise IndexError
         except IndexError:
-            await msg.channel.send("Missing course id. Example: `-getgrades 1324` or use one of shortcuts: anal, alg, wdsi, pt, ask insted of course_id.\nExample: `-getgrades anal`")
+            await msg.channel.send("Missing course id. Example: `-getgrades 1324` or use one of shortcuts: anal, alg, wdsi, pt, ask insted of course_id.\nExample: `-getgrades anal`\n`-help` for more info!")
             return
         try:
             grades = self.user_connections[msg.author.id].get_grades(course_id)
@@ -102,11 +102,11 @@ class UsersCredentialManager:
             await msg.channel.send(text)
 
         except KeyError:
-            await msg.channel.send("Please _DIRECT MESSAGE ME_: `-login <upel_login> <upel_password>` first")
+            await msg.channel.send("Please _DIRECT MESSAGE ME_: `-login <upel_login> <upel_password>` beffore attemting this command again.\n`-help` for more info!")
         except Exception as e:
             print(f"Exception in user.get_grades({course_id}) \n", e)
             print(traceback.format_exc())
-            await msg.channel.send("Error had occured, you have probably a wrong course id")
+            await msg.channel.send("Error had occured, you have probably a wrong course id.\n`-help` for more info!")
 
             
 

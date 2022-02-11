@@ -51,13 +51,13 @@ class FollowUpelUser:
         # identifier has to be the id from URL
         identifier = msg.content.split(" ")[1]
         if not identifier.isdigit():
-            await msg.channel.send("Command example: `-follow 7837` where the number is an `id` that is in URL of user profile.")
+            await msg.channel.send("Command example: `-follow 7837` where the number is an `id` that is in URL of user profile.\n`-help` for more info!")
             return
 
         for u in self.followed_users:
             if str(u.id)==identifier:
                 if msg.channel in u.channels_following:
-                    await msg.channel.send(f"User {u.username} with id: {u.id} is allready being followed.")
+                    await msg.channel.send(f"User {u.username} with id: {u.id} is allready being followed.\n`-help` for more info!")
                     return
                 u.channels_following.append(msg.channel)
                 await msg.channel.send(f"Successfully followed user: {u.username}")
@@ -67,7 +67,7 @@ class FollowUpelUser:
         try:
             profile_data = get_data.get_user_profile_data(self.s, identifier)
         except:
-            await msg.channel.send("User with such id doesn't exist.")
+            await msg.channel.send("User with such id doesn't exist.\n`-help` for more info!")
             return
         
         user = UpelUser(profile_data["username"], identifier)
@@ -94,7 +94,7 @@ class FollowUpelUser:
             followed = "\n".join(followed_by_channel)
             await msg.channel.send(f"This channel follows following users online status:\nusername : last active\n {followed}")
             return
-        await msg.channel.send("This channel isn't following any users online status right now.\nTo follow use command, example: `-follow 7838`")
+        await msg.channel.send("This channel isn't following any users online status right now.\nTo follow use command, example: `-follow 7838`\n`-help` for more info!")
 
     async def watch_loop(self):
         old = []
