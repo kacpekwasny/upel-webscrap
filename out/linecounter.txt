@@ -1,0 +1,1906 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-02-11 01:57:57
+count workspace : z:\Home\IT\Code\Python\projects\upel-webscrap
+total files : 1835
+total code lines : 303336
+total comment lines : 112320
+total blank lines : 47357
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .py|         234764|          98952|          41421|     77|
+   |            .md|             53|              0|             14|  0.017|
+   |               |           5375|            392|           1237|    1.8|
+   |           .cfg|             79|              0|              8|  0.026|
+   |           .bat|             41|              0|             15|  0.014|
+   |           .ps1|             52|              1|             13|  0.017|
+   |           .pth|              1|              0|              0|0.00033|
+   |           .txt|            311|              1|             47|   0.10|
+   |         .typed|              6|              0|              0| 0.0020|
+   |             .c|          51775|          12917|           3943|     17|
+   |           .pyi|            967|              3|             82|   0.32|
+   |           .pyx|           1303|              1|            286|   0.43|
+   |           .xml|             14|              1|              0| 0.0046|
+   |          .tmpl|              9|              0|              0| 0.0030|
+   |           .pem|           8360|             50|            259|    2.8|
+   |           .rst|              5|              2|              3| 0.0016|
+   |           .pxd|            118|              0|             24|  0.039|
+   |          .hash|             11|              0|              0| 0.0036|
+   |             .h|             10|              0|              4| 0.0033|
+   |           .pxi|             82|              0|              1|  0.027|
+   -------------------------------------------------------------------------
+.gitignore, code is 4, comment is 0, blank is 1.
+__pycache__\constatns.cpython-310.pyc, it is a binary file.
+__pycache__\secrets.cpython-310.pyc, it is a binary file.
+constatns.py, code is 1, comment is 0, blank is 1.
+discord_main.py, code is 31, comment is 1, blank is 18.
+lib\__init__.py, code is 2, comment is 0, blank is 0.
+lib\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+lib\discord\__init__.py, code is 1, comment is 0, blank is 0.
+lib\discord\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+lib\discord\__pycache__\firewall.cpython-310.pyc, it is a binary file.
+lib\discord\__pycache__\follow_user_online.cpython-310.pyc, it is a binary file.
+lib\discord\__pycache__\user_upel_connection.cpython-310.pyc, it is a binary file.
+lib\discord\firewall.py, code is 18, comment is 4, blank is 8.
+lib\discord\follow_user_online.py, code is 75, comment is 6, blank is 17.
+lib\discord\user_upel_connection.py, code is 70, comment is 4, blank is 16.
+lib\upel\__init__.py, code is 1, comment is 0, blank is 0.
+lib\upel\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+lib\upel\__pycache__\get_data.cpython-310.pyc, it is a binary file.
+lib\upel\__pycache__\login.cpython-310.pyc, it is a binary file.
+lib\upel\__pycache__\parse.cpython-310.pyc, it is a binary file.
+lib\upel\get_data.py, code is 32, comment is 5, blank is 11.
+lib\upel\login.py, code is 21, comment is 1, blank is 3.
+lib\upel\parse.py, code is 67, comment is 11, blank is 25.
+main.py, code is 14, comment is 2, blank is 6.
+README.md, code is 13, comment is 0, blank is 4.
+secrets.py, code is 3, comment is 0, blank is 1.
+test.py, code is 81, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\__pycache__\typing_extensions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\_distutils_hack\__init__.py, code is 73, comment is 3, blank is 40.
+venv-dir\env\Lib\site-packages\_distutils_hack\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\_distutils_hack\__pycache__\override.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\_distutils_hack\override.py, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp-3.7.4.post0.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp-3.7.4.post0.dist-info\LICENSE.txt, code is 154, comment is 1, blank is 28.
+venv-dir\env\Lib\site-packages\aiohttp-3.7.4.post0.dist-info\METADATA, code is 460, comment is 146, blank is 127.
+venv-dir\env\Lib\site-packages\aiohttp-3.7.4.post0.dist-info\RECORD, code is 130, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp-3.7.4.post0.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp-3.7.4.post0.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\_cparser.pxd.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\_find_header.pxd.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\_frozenlist.pyx.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\_helpers.pyi.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\_helpers.pyx.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\_http_parser.pyx.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\_http_writer.pyx.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\_websocket.pyx.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\frozenlist.pyi.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\hdrs.py.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\.hash\signals.pyi.hash, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\__init__.py, code is 201, comment is 12, blank is 5.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\abc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\base_protocol.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\client.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\client_exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\client_proto.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\client_reqrep.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\client_ws.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\connector.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\cookiejar.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\formdata.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\frozenlist.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\hdrs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\helpers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\http.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\http_exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\http_parser.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\http_websocket.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\http_writer.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\locks.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\log.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\multipart.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\payload.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\payload_streamer.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\pytest_plugin.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\resolver.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\signals.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\streams.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\tcp_helpers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\test_utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\tracing.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\typedefs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_app.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_fileresponse.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_log.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_middlewares.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_protocol.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_request.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_response.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_routedef.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_runner.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_server.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_urldispatcher.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\web_ws.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\__pycache__\worker.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\aiohttp\_cparser.pxd, code is 116, comment is 0, blank is 24.
+venv-dir\env\Lib\site-packages\aiohttp\_find_header.c, code is 9321, comment is 4, blank is 546.
+venv-dir\env\Lib\site-packages\aiohttp\_find_header.h, code is 10, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\aiohttp\_find_header.pxd, code is 2, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\_frozenlist.c, code is 5901, comment is 1203, blank is 411.
+venv-dir\env\Lib\site-packages\aiohttp\_frozenlist.pyx, code is 80, comment is 0, blank is 28.
+venv-dir\env\Lib\site-packages\aiohttp\_headers.pxi, code is 82, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\aiohttp\_helpers.c, code is 4621, comment is 574, blank is 242.
+venv-dir\env\Lib\site-packages\aiohttp\_helpers.pyi, code is 5, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\aiohttp\_helpers.pyx, code is 23, comment is 0, blank is 6.
+venv-dir\env\Lib\site-packages\aiohttp\_http_parser.c, code is 16658, comment is 6490, blank is 1527.
+venv-dir\env\Lib\site-packages\aiohttp\_http_parser.pyx, code is 733, comment is 1, blank is 142.
+venv-dir\env\Lib\site-packages\aiohttp\_http_writer.c, code is 4419, comment is 1110, blank is 317.
+venv-dir\env\Lib\site-packages\aiohttp\_http_writer.pyx, code is 123, comment is 0, blank is 28.
+venv-dir\env\Lib\site-packages\aiohttp\_websocket.c, code is 3075, comment is 339, blank is 175.
+venv-dir\env\Lib\site-packages\aiohttp\_websocket.pyx, code is 39, comment is 0, blank is 16.
+venv-dir\env\Lib\site-packages\aiohttp\abc.py, code is 109, comment is 7, blank is 76.
+venv-dir\env\Lib\site-packages\aiohttp\base_protocol.py, code is 73, comment is 4, blank is 13.
+venv-dir\env\Lib\site-packages\aiohttp\client.py, code is 982, comment is 62, blank is 196.
+venv-dir\env\Lib\site-packages\aiohttp\client_exceptions.py, code is 195, comment is 10, blank is 99.
+venv-dir\env\Lib\site-packages\aiohttp\client_proto.py, code is 186, comment is 23, blank is 46.
+venv-dir\env\Lib\site-packages\aiohttp\client_reqrep.py, code is 878, comment is 94, blank is 197.
+venv-dir\env\Lib\site-packages\aiohttp\client_ws.py, code is 253, comment is 9, blank is 43.
+venv-dir\env\Lib\site-packages\aiohttp\connector.py, code is 896, comment is 83, blank is 216.
+venv-dir\env\Lib\site-packages\aiohttp\cookiejar.py, code is 280, comment is 19, blank is 86.
+venv-dir\env\Lib\site-packages\aiohttp\formdata.py, code is 132, comment is 7, blank is 34.
+venv-dir\env\Lib\site-packages\aiohttp\frozenlist.py, code is 51, comment is 3, blank is 21.
+venv-dir\env\Lib\site-packages\aiohttp\frozenlist.pyi, code is 43, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\aiohttp\hdrs.py, code is 99, comment is 2, blank is 7.
+venv-dir\env\Lib\site-packages\aiohttp\helpers.py, code is 565, comment is 42, blank is 168.
+venv-dir\env\Lib\site-packages\aiohttp\http.py, code is 64, comment is 5, blank is 5.
+venv-dir\env\Lib\site-packages\aiohttp\http_exceptions.py, code is 59, comment is 0, blank is 39.
+venv-dir\env\Lib\site-packages\aiohttp\http_parser.py, code is 695, comment is 78, blank is 133.
+venv-dir\env\Lib\site-packages\aiohttp\http_websocket.py, code is 518, comment is 60, blank is 117.
+venv-dir\env\Lib\site-packages\aiohttp\http_writer.py, code is 125, comment is 6, blank is 44.
+venv-dir\env\Lib\site-packages\aiohttp\locks.py, code is 29, comment is 2, blank is 11.
+venv-dir\env\Lib\site-packages\aiohttp\log.py, code is 7, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\aiohttp\multipart.py, code is 699, comment is 71, blank is 179.
+venv-dir\env\Lib\site-packages\aiohttp\payload.py, code is 341, comment is 16, blank is 95.
+venv-dir\env\Lib\site-packages\aiohttp\payload_streamer.py, code is 38, comment is 1, blank is 15.
+venv-dir\env\Lib\site-packages\aiohttp\py.typed, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\aiohttp\pytest_plugin.py, code is 256, comment is 47, blank is 89.
+venv-dir\env\Lib\site-packages\aiohttp\resolver.py, code is 112, comment is 8, blank is 30.
+venv-dir\env\Lib\site-packages\aiohttp\signals.py, code is 16, comment is 1, blank is 10.
+venv-dir\env\Lib\site-packages\aiohttp\signals.pyi, code is 8, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\aiohttp\streams.py, code is 428, comment is 55, blank is 151.
+venv-dir\env\Lib\site-packages\aiohttp\tcp_helpers.py, code is 22, comment is 3, blank is 15.
+venv-dir\env\Lib\site-packages\aiohttp\test_utils.py, code is 442, comment is 18, blank is 141.
+venv-dir\env\Lib\site-packages\aiohttp\tracing.py, code is 335, comment is 16, blank is 105.
+venv-dir\env\Lib\site-packages\aiohttp\typedefs.py, code is 39, comment is 1, blank is 7.
+venv-dir\env\Lib\site-packages\aiohttp\web.py, code is 522, comment is 29, blank is 39.
+venv-dir\env\Lib\site-packages\aiohttp\web_app.py, code is 434, comment is 37, blank is 94.
+venv-dir\env\Lib\site-packages\aiohttp\web_exceptions.py, code is 277, comment is 27, blank is 139.
+venv-dir\env\Lib\site-packages\aiohttp\web_fileresponse.py, code is 158, comment is 48, blank is 43.
+venv-dir\env\Lib\site-packages\aiohttp\web_log.py, code is 125, comment is 10, blank is 31.
+venv-dir\env\Lib\site-packages\aiohttp\web_middlewares.py, code is 68, comment is 4, blank is 25.
+venv-dir\env\Lib\site-packages\aiohttp\web_protocol.py, code is 473, comment is 40, blank is 111.
+venv-dir\env\Lib\site-packages\aiohttp\web_request.py, code is 560, comment is 41, blank is 152.
+venv-dir\env\Lib\site-packages\aiohttp\web_response.py, code is 605, comment is 46, blank is 137.
+venv-dir\env\Lib\site-packages\aiohttp\web_routedef.py, code is 155, comment is 5, blank is 60.
+venv-dir\env\Lib\site-packages\aiohttp\web_runner.py, code is 300, comment is 22, blank is 73.
+venv-dir\env\Lib\site-packages\aiohttp\web_server.py, code is 51, comment is 2, blank is 11.
+venv-dir\env\Lib\site-packages\aiohttp\web_urldispatcher.py, code is 908, comment is 45, blank is 263.
+venv-dir\env\Lib\site-packages\aiohttp\web_ws.py, code is 395, comment is 26, blank is 72.
+venv-dir\env\Lib\site-packages\aiohttp\worker.py, code is 168, comment is 28, blank is 64.
+venv-dir\env\Lib\site-packages\async_timeout-3.0.1.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\async_timeout-3.0.1.dist-info\LICENSE, code is 154, comment is 1, blank is 28.
+venv-dir\env\Lib\site-packages\async_timeout-3.0.1.dist-info\METADATA, code is 69, comment is 9, blank is 28.
+venv-dir\env\Lib\site-packages\async_timeout-3.0.1.dist-info\RECORD, code is 9, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\async_timeout-3.0.1.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\async_timeout-3.0.1.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\async_timeout\__init__.py, code is 78, comment is 9, blank is 22.
+venv-dir\env\Lib\site-packages\async_timeout\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\async_timeout\py.typed, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\attr\__init__.py, code is 65, comment is 3, blank is 14.
+venv-dir\env\Lib\site-packages\attr\__init__.pyi, code is 454, comment is 3, blank is 30.
+venv-dir\env\Lib\site-packages\attr\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\_cmp.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\_compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\_config.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\_funcs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\_make.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\_next_gen.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\_version_info.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\converters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\filters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\setters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\__pycache__\validators.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attr\_cmp.py, code is 71, comment is 6, blank is 41.
+venv-dir\env\Lib\site-packages\attr\_cmp.pyi, code is 11, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\attr\_compat.py, code is 139, comment is 53, blank is 65.
+venv-dir\env\Lib\site-packages\attr\_config.py, code is 10, comment is 1, blank is 10.
+venv-dir\env\Lib\site-packages\attr\_funcs.py, code is 251, comment is 10, blank is 33.
+venv-dir\env\Lib\site-packages\attr\_make.py, code is 1779, comment is 163, blank is 494.
+venv-dir\env\Lib\site-packages\attr\_next_gen.py, code is 125, comment is 6, blank is 30.
+venv-dir\env\Lib\site-packages\attr\_version_info.py, code is 40, comment is 3, blank is 19.
+venv-dir\env\Lib\site-packages\attr\_version_info.pyi, code is 9, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\attr\converters.py, code is 70, comment is 3, blank is 30.
+venv-dir\env\Lib\site-packages\attr\converters.pyi, code is 10, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\attr\exceptions.py, code is 18, comment is 1, blank is 31.
+venv-dir\env\Lib\site-packages\attr\exceptions.pyi, code is 14, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\attr\filters.py, code is 18, comment is 1, blank is 17.
+venv-dir\env\Lib\site-packages\attr\filters.pyi, code is 4, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\attr\py.typed, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\attr\setters.py, code is 26, comment is 1, blank is 27.
+venv-dir\env\Lib\site-packages\attr\setters.pyi, code is 14, comment is 0, blank is 5.
+venv-dir\env\Lib\site-packages\attr\validators.py, code is 264, comment is 4, blank is 122.
+venv-dir\env\Lib\site-packages\attr\validators.pyi, code is 74, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\attrs-21.4.0.dist-info\AUTHORS.rst, code is 5, comment is 2, blank is 3.
+venv-dir\env\Lib\site-packages\attrs-21.4.0.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\attrs-21.4.0.dist-info\LICENSE, code is 17, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\attrs-21.4.0.dist-info\METADATA, code is 147, comment is 25, blank is 41.
+venv-dir\env\Lib\site-packages\attrs-21.4.0.dist-info\RECORD, code is 56, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\attrs-21.4.0.dist-info\top_level.txt, code is 2, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\attrs-21.4.0.dist-info\WHEEL, code is 5, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\attrs\__init__.py, code is 65, comment is 1, blank is 4.
+venv-dir\env\Lib\site-packages\attrs\__init__.pyi, code is 60, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\attrs\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attrs\__pycache__\converters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attrs\__pycache__\exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attrs\__pycache__\filters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attrs\__pycache__\setters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attrs\__pycache__\validators.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\attrs\converters.py, code is 1, comment is 2, blank is 1.
+venv-dir\env\Lib\site-packages\attrs\exceptions.py, code is 1, comment is 2, blank is 1.
+venv-dir\env\Lib\site-packages\attrs\filters.py, code is 1, comment is 2, blank is 1.
+venv-dir\env\Lib\site-packages\attrs\py.typed, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\attrs\setters.py, code is 1, comment is 2, blank is 1.
+venv-dir\env\Lib\site-packages\attrs\validators.py, code is 1, comment is 2, blank is 1.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\AUTHORS, code is 14, comment is 0, blank is 7.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\COPYING.txt, code is 22, comment is 0, blank is 5.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\LICENSE, code is 24, comment is 0, blank is 6.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\METADATA, code is 74, comment is 9, blank is 9.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\RECORD, code is 29, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\REQUESTED, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\beautifulsoup4-4.10.0.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\bs4\__init__.py, code is 378, comment is 58, blank is 99.
+venv-dir\env\Lib\site-packages\bs4\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\__pycache__\dammit.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\__pycache__\diagnose.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\__pycache__\element.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\__pycache__\formatter.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\__pycache__\testing.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\builder\__init__.py, code is 214, comment is 83, blank is 75.
+venv-dir\env\Lib\site-packages\bs4\builder\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\builder\__pycache__\_html5lib.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\builder\__pycache__\_htmlparser.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\builder\__pycache__\_lxml.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\bs4\builder\_html5lib.py, code is 315, comment is 77, blank is 64.
+venv-dir\env\Lib\site-packages\bs4\builder\_htmlparser.py, code is 243, comment is 77, blank is 66.
+venv-dir\env\Lib\site-packages\bs4\builder\_lxml.py, code is 192, comment is 49, blank is 59.
+venv-dir\env\Lib\site-packages\bs4\dammit.py, code is 2721, comment is 219, blank is 64.
+venv-dir\env\Lib\site-packages\bs4\diagnose.py, code is 164, comment is 7, blank is 46.
+venv-dir\env\Lib\site-packages\bs4\element.py, code is 1086, comment is 204, blank is 335.
+venv-dir\env\Lib\site-packages\bs4\formatter.py, code is 76, comment is 4, blank is 20.
+venv-dir\env\Lib\site-packages\bs4\testing.py, code is 470, comment is 103, blank is 164.
+venv-dir\env\Lib\site-packages\certifi-2021.10.8.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\certifi-2021.10.8.dist-info\LICENSE, code is 5, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\certifi-2021.10.8.dist-info\METADATA, code is 39, comment is 2, blank is 19.
+venv-dir\env\Lib\site-packages\certifi-2021.10.8.dist-info\RECORD, code is 13, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\certifi-2021.10.8.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\certifi-2021.10.8.dist-info\WHEEL, code is 5, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\certifi\__init__.py, code is 2, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\certifi\__main__.py, code is 9, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\certifi\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\certifi\__pycache__\__main__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\certifi\__pycache__\core.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\certifi\cacert.pem, code is 4231, comment is 25, blank is 131.
+venv-dir\env\Lib\site-packages\certifi\core.py, code is 21, comment is 22, blank is 12.
+venv-dir\env\Lib\site-packages\chardet-4.0.0.dist-info\entry_points.txt, code is 2, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\chardet-4.0.0.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\chardet-4.0.0.dist-info\LICENSE, code is 249, comment is 0, blank is 49.
+venv-dir\env\Lib\site-packages\chardet-4.0.0.dist-info\METADATA, code is 77, comment is 12, blank is 22.
+venv-dir\env\Lib\site-packages\chardet-4.0.0.dist-info\RECORD, code is 94, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\chardet-4.0.0.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\chardet-4.0.0.dist-info\WHEEL, code is 5, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\chardet\__init__.py, code is 42, comment is 18, blank is 13.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\big5freq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\big5prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\chardistribution.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\charsetgroupprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\charsetprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\codingstatemachine.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\cp949prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\enums.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\escprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\escsm.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\eucjpprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\euckrfreq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\euckrprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\euctwfreq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\euctwprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\gb2312freq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\gb2312prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\hebrewprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\jisfreq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\jpcntx.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\langbulgarianmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\langgreekmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\langhebrewmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\langhungarianmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\langrussianmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\langthaimodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\langturkishmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\latin1prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\mbcharsetprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\mbcsgroupprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\mbcssm.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\sbcharsetprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\sbcsgroupprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\sjisprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\universaldetector.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\utf8prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\big5freq.py, code is 340, comment is 377, blank is 5.
+venv-dir\env\Lib\site-packages\chardet\big5prober.py, code is 16, comment is 26, blank is 5.
+venv-dir\env\Lib\site-packages\chardet\chardistribution.py, code is 131, comment is 72, blank is 32.
+venv-dir\env\Lib\site-packages\chardet\charsetgroupprober.py, code is 73, comment is 26, blank is 8.
+venv-dir\env\Lib\site-packages\chardet\charsetprober.py, code is 56, comment is 44, blank is 24.
+venv-dir\env\Lib\site-packages\chardet\cli\__init__.py, code is 0, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\chardet\cli\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\cli\__pycache__\chardetect.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\cli\chardetect.py, code is 41, comment is 2, blank is 13.
+venv-dir\env\Lib\site-packages\chardet\codingstatemachine.py, code is 29, comment is 29, blank is 10.
+venv-dir\env\Lib\site-packages\chardet\compat.py, code is 13, comment is 20, blank is 3.
+venv-dir\env\Lib\site-packages\chardet\cp949prober.py, code is 16, comment is 28, blank is 5.
+venv-dir\env\Lib\site-packages\chardet\enums.py, code is 35, comment is 0, blank is 21.
+venv-dir\env\Lib\site-packages\chardet\escprober.py, code is 61, comment is 26, blank is 10.
+venv-dir\env\Lib\site-packages\chardet\escsm.py, code is 201, comment is 182, blank is 19.
+venv-dir\env\Lib\site-packages\chardet\eucjpprober.py, code is 54, comment is 27, blank is 11.
+venv-dir\env\Lib\site-packages\chardet\euckrfreq.py, code is 151, comment is 39, blank is 6.
+venv-dir\env\Lib\site-packages\chardet\euckrprober.py, code is 16, comment is 26, blank is 5.
+venv-dir\env\Lib\site-packages\chardet\euctwfreq.py, code is 340, comment is 377, blank is 6.
+venv-dir\env\Lib\site-packages\chardet\euctwprober.py, code is 16, comment is 26, blank is 4.
+venv-dir\env\Lib\site-packages\chardet\gb2312freq.py, code is 239, comment is 39, blank is 6.
+venv-dir\env\Lib\site-packages\chardet\gb2312prober.py, code is 16, comment is 26, blank is 4.
+venv-dir\env\Lib\site-packages\chardet\hebrewprober.py, code is 83, comment is 186, blank is 23.
+venv-dir\env\Lib\site-packages\chardet\jisfreq.py, code is 277, comment is 314, blank is 7.
+venv-dir\env\Lib\site-packages\chardet\jpcntx.py, code is 169, comment is 46, blank is 20.
+venv-dir\env\Lib\site-packages\chardet\langbulgarianmodel.py, code is 4628, comment is 4556, blank is 10.
+venv-dir\env\Lib\site-packages\chardet\langgreekmodel.py, code is 4376, comment is 4306, blank is 10.
+venv-dir\env\Lib\site-packages\chardet\langhebrewmodel.py, code is 4363, comment is 4300, blank is 8.
+venv-dir\env\Lib\site-packages\chardet\langhungarianmodel.py, code is 4628, comment is 4556, blank is 10.
+venv-dir\env\Lib\site-packages\chardet\langrussianmodel.py, code is 5688, comment is 5580, blank is 18.
+venv-dir\env\Lib\site-packages\chardet\langthaimodel.py, code is 4363, comment is 4300, blank is 8.
+venv-dir\env\Lib\site-packages\chardet\langturkishmodel.py, code is 4363, comment is 4300, blank is 8.
+venv-dir\env\Lib\site-packages\chardet\latin1prober.py, code is 97, comment is 83, blank is 14.
+venv-dir\env\Lib\site-packages\chardet\mbcharsetprober.py, code is 48, comment is 28, blank is 13.
+venv-dir\env\Lib\site-packages\chardet\mbcsgroupprober.py, code is 23, comment is 28, blank is 3.
+venv-dir\env\Lib\site-packages\chardet\mbcssm.py, code is 476, comment is 420, blank is 52.
+venv-dir\env\Lib\site-packages\chardet\metadata\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\chardet\metadata\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\metadata\__pycache__\languages.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\chardet\metadata\languages.py, code is 242, comment is 36, blank is 9.
+venv-dir\env\Lib\site-packages\chardet\sbcharsetprober.py, code is 91, comment is 41, blank is 14.
+venv-dir\env\Lib\site-packages\chardet\sbcsgroupprober.py, code is 41, comment is 39, blank is 3.
+venv-dir\env\Lib\site-packages\chardet\sjisprober.py, code is 55, comment is 26, blank is 11.
+venv-dir\env\Lib\site-packages\chardet\universaldetector.py, code is 161, comment is 55, blank is 26.
+venv-dir\env\Lib\site-packages\chardet\utf8prober.py, code is 44, comment is 26, blank is 12.
+venv-dir\env\Lib\site-packages\chardet\version.py, code is 2, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\charset_normalizer-2.0.11.dist-info\entry_points.txt, code is 2, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\charset_normalizer-2.0.11.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\charset_normalizer-2.0.11.dist-info\LICENSE, code is 17, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\charset_normalizer-2.0.11.dist-info\METADATA, code is 152, comment is 5, blank is 32.
+venv-dir\env\Lib\site-packages\charset_normalizer-2.0.11.dist-info\RECORD, code is 33, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\charset_normalizer-2.0.11.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\charset_normalizer-2.0.11.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\charset_normalizer\__init__.py, code is 29, comment is 3, blank is 5.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\api.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\cd.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\constant.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\legacy.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\md.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\models.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\api.py, code is 479, comment is 42, blank is 96.
+venv-dir\env\Lib\site-packages\charset_normalizer\assets\__init__.py, code is 1242, comment is 1, blank is 1.
+venv-dir\env\Lib\site-packages\charset_normalizer\assets\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\cd.py, code is 223, comment is 33, blank is 89.
+venv-dir\env\Lib\site-packages\charset_normalizer\cli\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\charset_normalizer\cli\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\cli\__pycache__\normalizer.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\charset_normalizer\cli\normalizer.py, code is 244, comment is 1, blank is 32.
+venv-dir\env\Lib\site-packages\charset_normalizer\constant.py, code is 480, comment is 18, blank is 20.
+venv-dir\env\Lib\site-packages\charset_normalizer\legacy.py, code is 60, comment is 15, blank is 25.
+venv-dir\env\Lib\site-packages\charset_normalizer\md.py, code is 408, comment is 65, blank is 124.
+venv-dir\env\Lib\site-packages\charset_normalizer\models.py, code is 255, comment is 39, blank is 80.
+venv-dir\env\Lib\site-packages\charset_normalizer\py.typed, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\charset_normalizer\utils.py, code is 224, comment is 26, blank is 107.
+venv-dir\env\Lib\site-packages\charset_normalizer\version.py, code is 2, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\discord.py-1.7.3.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\discord.py-1.7.3.dist-info\LICENSE, code is 17, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\discord.py-1.7.3.dist-info\METADATA, code is 85, comment is 10, blank is 29.
+venv-dir\env\Lib\site-packages\discord.py-1.7.3.dist-info\RECORD, code is 131, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\discord.py-1.7.3.dist-info\REQUESTED, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\discord.py-1.7.3.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\discord.py-1.7.3.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\discord\__init__.py, code is 48, comment is 1, blank is 9.
+venv-dir\env\Lib\site-packages\discord\__main__.py, code is 142, comment is 51, blank is 37.
+venv-dir\env\Lib\site-packages\discord\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\__main__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\abc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\activity.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\appinfo.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\asset.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\audit_logs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\backoff.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\calls.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\channel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\client.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\colour.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\context_managers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\embeds.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\emoji.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\enums.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\errors.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\file.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\flags.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\gateway.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\guild.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\http.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\integrations.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\invite.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\iterators.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\member.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\mentions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\message.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\mixins.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\object.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\oggparse.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\opus.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\partial_emoji.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\permissions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\player.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\raw_models.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\reaction.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\relationship.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\role.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\shard.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\state.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\sticker.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\team.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\template.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\user.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\voice_client.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\webhook.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\__pycache__\widget.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\abc.py, code is 496, comment is 43, blank is 162.
+venv-dir\env\Lib\site-packages\discord\activity.py, code is 364, comment is 3, blank is 123.
+venv-dir\env\Lib\site-packages\discord\appinfo.py, code is 45, comment is 1, blank is 22.
+venv-dir\env\Lib\site-packages\discord\asset.py, code is 121, comment is 1, blank is 42.
+venv-dir\env\Lib\site-packages\discord\audit_logs.py, code is 240, comment is 15, blank is 65.
+venv-dir\env\Lib\site-packages\discord\backoff.py, code is 21, comment is 2, blank is 12.
+venv-dir\env\Lib\site-packages\discord\bin\libopus-0.x64.dll, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\bin\libopus-0.x86.dll, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\calls.py, code is 57, comment is 2, blank is 25.
+venv-dir\env\Lib\site-packages\discord\channel.py, code is 482, comment is 14, blank is 195.
+venv-dir\env\Lib\site-packages\discord\client.py, code is 462, comment is 27, blank is 175.
+venv-dir\env\Lib\site-packages\discord\colour.py, code is 120, comment is 1, blank is 80.
+venv-dir\env\Lib\site-packages\discord\context_managers.py, code is 32, comment is 2, blank is 11.
+venv-dir\env\Lib\site-packages\discord\embeds.py, code is 256, comment is 8, blank is 108.
+venv-dir\env\Lib\site-packages\discord\emoji.py, code is 74, comment is 1, blank is 33.
+venv-dir\env\Lib\site-packages\discord\enums.py, code is 380, comment is 4, blank is 62.
+venv-dir\env\Lib\site-packages\discord\errors.py, code is 71, comment is 4, blank is 35.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__init__.py, code is 8, comment is 1, blank is 3.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\_types.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\bot.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\cog.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\context.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\converter.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\cooldowns.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\core.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\errors.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\help.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\__pycache__\view.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\ext\commands\_types.py, code is 3, comment is 3, blank is 2.
+venv-dir\env\Lib\site-packages\discord\ext\commands\bot.py, code is 360, comment is 25, blank is 128.
+venv-dir\env\Lib\site-packages\discord\ext\commands\cog.py, code is 178, comment is 25, blank is 67.
+venv-dir\env\Lib\site-packages\discord\ext\commands\context.py, code is 132, comment is 4, blank is 40.
+venv-dir\env\Lib\site-packages\discord\ext\commands\converter.py, code is 450, comment is 17, blank is 128.
+venv-dir\env\Lib\site-packages\discord\ext\commands\cooldowns.py, code is 185, comment is 17, blank is 61.
+venv-dir\env\Lib\site-packages\discord\ext\commands\core.py, code is 960, comment is 59, blank is 292.
+venv-dir\env\Lib\site-packages\discord\ext\commands\errors.py, code is 273, comment is 3, blank is 116.
+venv-dir\env\Lib\site-packages\discord\ext\commands\help.py, code is 528, comment is 53, blank is 198.
+venv-dir\env\Lib\site-packages\discord\ext\commands\view.py, code is 131, comment is 14, blank is 27.
+venv-dir\env\Lib\site-packages\discord\ext\tasks\__init__.py, code is 208, comment is 2, blank is 68.
+venv-dir\env\Lib\site-packages\discord\ext\tasks\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\discord\file.py, code is 37, comment is 13, blank is 12.
+venv-dir\env\Lib\site-packages\discord\flags.py, code is 303, comment is 6, blank is 147.
+venv-dir\env\Lib\site-packages\discord\gateway.py, code is 624, comment is 23, blank is 144.
+venv-dir\env\Lib\site-packages\discord\guild.py, code is 688, comment is 16, blank is 218.
+venv-dir\env\Lib\site-packages\discord\http.py, code is 716, comment is 42, blank is 226.
+venv-dir\env\Lib\site-packages\discord\integrations.py, code is 64, comment is 1, blank is 27.
+venv-dir\env\Lib\site-packages\discord\invite.py, code is 132, comment is 6, blank is 52.
+venv-dir\env\Lib\site-packages\discord\iterators.py, code is 449, comment is 16, blank is 118.
+venv-dir\env\Lib\site-packages\discord\member.py, code is 347, comment is 26, blank is 113.
+venv-dir\env\Lib\site-packages\discord\mentions.py, code is 47, comment is 4, blank is 21.
+venv-dir\env\Lib\site-packages\discord\message.py, code is 620, comment is 37, blank is 210.
+venv-dir\env\Lib\site-packages\discord\mixins.py, code is 13, comment is 1, blank is 6.
+venv-dir\env\Lib\site-packages\discord\object.py, code is 16, comment is 1, blank is 8.
+venv-dir\env\Lib\site-packages\discord\oggparse.py, code is 56, comment is 3, blank is 17.
+venv-dir\env\Lib\site-packages\discord\opus.py, code is 241, comment is 19, blank is 82.
+venv-dir\env\Lib\site-packages\discord\partial_emoji.py, code is 70, comment is 1, blank is 29.
+venv-dir\env\Lib\site-packages\discord\permissions.py, code is 265, comment is 17, blank is 131.
+venv-dir\env\Lib\site-packages\discord\player.py, code is 303, comment is 8, blank is 101.
+venv-dir\env\Lib\site-packages\discord\raw_models.py, code is 69, comment is 1, blank is 31.
+venv-dir\env\Lib\site-packages\discord\reaction.py, code is 37, comment is 1, blank is 21.
+venv-dir\env\Lib\site-packages\discord\relationship.py, code is 17, comment is 1, blank is 13.
+venv-dir\env\Lib\site-packages\discord\role.py, code is 140, comment is 8, blank is 66.
+venv-dir\env\Lib\site-packages\discord\shard.py, code is 305, comment is 5, blank is 83.
+venv-dir\env\Lib\site-packages\discord\state.py, code is 966, comment is 68, blank is 203.
+venv-dir\env\Lib\site-packages\discord\sticker.py, code is 34, comment is 1, blank is 16.
+venv-dir\env\Lib\site-packages\discord\team.py, code is 38, comment is 1, blank is 18.
+venv-dir\env\Lib\site-packages\discord\template.py, code is 80, comment is 1, blank is 36.
+venv-dir\env\Lib\site-packages\discord\user.py, code is 298, comment is 3, blank is 126.
+venv-dir\env\Lib\site-packages\discord\utils.py, code is 270, comment is 7, blank is 85.
+venv-dir\env\Lib\site-packages\discord\voice_client.py, code is 305, comment is 21, blank is 110.
+venv-dir\env\Lib\site-packages\discord\webhook.py, code is 458, comment is 23, blank is 154.
+venv-dir\env\Lib\site-packages\discord\widget.py, code is 86, comment is 1, blank is 33.
+venv-dir\env\Lib\site-packages\distutils-precedence.pth, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\idna-3.3.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\idna-3.3.dist-info\LICENSE.md, code is 23, comment is 0, blank is 6.
+venv-dir\env\Lib\site-packages\idna-3.3.dist-info\METADATA, code is 179, comment is 10, blank is 57.
+venv-dir\env\Lib\site-packages\idna-3.3.dist-info\RECORD, code is 23, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\idna-3.3.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\idna-3.3.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\idna\__init__.py, code is 43, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\idna\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\idna\__pycache__\codec.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\idna\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\idna\__pycache__\core.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\idna\__pycache__\idnadata.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\idna\__pycache__\intranges.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\idna\__pycache__\package_data.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\idna\__pycache__\uts46data.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\idna\codec.py, code is 84, comment is 9, blank is 24.
+venv-dir\env\Lib\site-packages\idna\compat.py, code is 9, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\idna\core.py, code is 311, comment is 11, blank is 78.
+venv-dir\env\Lib\site-packages\idna\idnadata.py, code is 2135, comment is 1, blank is 1.
+venv-dir\env\Lib\site-packages\idna\intranges.py, code is 32, comment is 3, blank is 10.
+venv-dir\env\Lib\site-packages\idna\package_data.py, code is 1, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\idna\py.typed, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\idna\uts46data.py, code is 8423, comment is 3, blank is 87.
+venv-dir\env\Lib\site-packages\multidict-6.0.2.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\multidict-6.0.2.dist-info\LICENSE, code is 10, comment is 1, blank is 3.
+venv-dir\env\Lib\site-packages\multidict-6.0.2.dist-info\METADATA, code is 95, comment is 20, blank is 36.
+venv-dir\env\Lib\site-packages\multidict-6.0.2.dist-info\RECORD, code is 19, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\multidict-6.0.2.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\multidict-6.0.2.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\multidict\__init__.py, code is 35, comment is 1, blank is 8.
+venv-dir\env\Lib\site-packages\multidict\__init__.pyi, code is 141, comment is 0, blank is 14.
+venv-dir\env\Lib\site-packages\multidict\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\multidict\__pycache__\_abc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\multidict\__pycache__\_compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\multidict\__pycache__\_multidict_base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\multidict\__pycache__\_multidict_py.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\multidict\_abc.py, code is 31, comment is 4, blank is 13.
+venv-dir\env\Lib\site-packages\multidict\_compat.py, code is 10, comment is 1, blank is 4.
+venv-dir\env\Lib\site-packages\multidict\_multidict.cp310-win_amd64.pyd, it is a binary file.
+venv-dir\env\Lib\site-packages\multidict\_multidict_base.py, code is 114, comment is 6, blank is 30.
+venv-dir\env\Lib\site-packages\multidict\_multidict_py.py, code is 369, comment is 7, blank is 132.
+venv-dir\env\Lib\site-packages\multidict\py.typed, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip-21.2.4.dist-info\entry_points.txt, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip-21.2.4.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip-21.2.4.dist-info\LICENSE.txt, code is 17, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\pip-21.2.4.dist-info\METADATA, code is 53, comment is 8, blank is 15.
+venv-dir\env\Lib\site-packages\pip-21.2.4.dist-info\RECORD, code is 795, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip-21.2.4.dist-info\REQUESTED, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip-21.2.4.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip-21.2.4.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\__init__.py, code is 5, comment is 0, blank is 5.
+venv-dir\env\Lib\site-packages\pip\__main__.py, code is 14, comment is 13, blank is 4.
+venv-dir\env\Lib\site-packages\pip\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\__pycache__\__main__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__init__.py, code is 7, comment is 3, blank is 6.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\build_env.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\cache.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\configuration.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\main.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\pyproject.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\self_outdated_check.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\__pycache__\wheel_builder.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\build_env.py, code is 200, comment is 62, blank is 39.
+venv-dir\env\Lib\site-packages\pip\_internal\cache.py, code is 163, comment is 46, blank is 57.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__init__.py, code is 0, comment is 1, blank is 2.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\autocompletion.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\base_command.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\cmdoptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\command_context.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\main.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\main_parser.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\parser.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\progress_bars.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\req_command.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\spinners.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\__pycache__\status_codes.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\autocompletion.py, code is 111, comment is 19, blank is 19.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\base_command.py, code is 146, comment is 17, blank is 48.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\cmdoptions.py, code is 714, comment is 38, blank is 204.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\command_context.py, code is 20, comment is 0, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\main.py, code is 28, comment is 26, blank is 15.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\main_parser.py, code is 48, comment is 15, blank is 24.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\parser.py, code is 189, comment is 23, blank is 62.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\progress_bars.py, code is 129, comment is 50, blank is 59.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\req_command.py, code is 315, comment is 25, blank is 78.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\spinners.py, code is 113, comment is 18, blank is 26.
+venv-dir\env\Lib\site-packages\pip\_internal\cli\status_codes.py, code is 6, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__init__.py, code is 85, comment is 8, blank is 15.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\cache.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\check.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\completion.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\configuration.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\debug.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\download.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\freeze.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\hash.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\help.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\index.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\install.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\list.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\search.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\show.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\uninstall.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\__pycache__\wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\cache.py, code is 129, comment is 19, blank is 43.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\check.py, code is 35, comment is 0, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\completion.py, code is 50, comment is 0, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\configuration.py, code is 179, comment is 10, blank is 52.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\debug.py, code is 137, comment is 8, blank is 55.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\download.py, code is 97, comment is 2, blank is 25.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\freeze.py, code is 66, comment is 0, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\hash.py, code is 38, comment is 0, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\help.py, code is 27, comment is 2, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\index.py, code is 97, comment is 4, blank is 32.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\install.py, code is 545, comment is 31, blank is 149.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\list.py, code is 256, comment is 14, blank is 53.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\search.py, code is 126, comment is 2, blank is 31.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\show.py, code is 172, comment is 3, blank is 33.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\uninstall.py, code is 74, comment is 0, blank is 16.
+venv-dir\env\Lib\site-packages\pip\_internal\commands\wheel.py, code is 128, comment is 2, blank is 29.
+venv-dir\env\Lib\site-packages\pip\_internal\configuration.py, code is 219, comment is 66, blank is 88.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\__init__.py, code is 12, comment is 4, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\__pycache__\base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\__pycache__\installed.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\__pycache__\sdist.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\__pycache__\wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\base.py, code is 17, comment is 0, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\installed.py, code is 11, comment is 0, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\sdist.py, code is 67, comment is 7, blank is 17.
+venv-dir\env\Lib\site-packages\pip\_internal\distributions\wheel.py, code is 17, comment is 2, blank is 9.
+venv-dir\env\Lib\site-packages\pip\_internal\exceptions.py, code is 157, comment is 40, blank is 129.
+venv-dir\env\Lib\site-packages\pip\_internal\index\__init__.py, code is 0, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_internal\index\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\index\__pycache__\collector.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\index\__pycache__\package_finder.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\index\__pycache__\sources.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\index\collector.py, code is 321, comment is 37, blank is 106.
+venv-dir\env\Lib\site-packages\pip\_internal\index\package_finder.py, code is 605, comment is 45, blank is 154.
+venv-dir\env\Lib\site-packages\pip\_internal\index\sources.py, code is 153, comment is 2, blank is 48.
+venv-dir\env\Lib\site-packages\pip\_internal\locations\__init__.py, code is 277, comment is 29, blank is 77.
+venv-dir\env\Lib\site-packages\pip\_internal\locations\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\locations\__pycache__\_distutils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\locations\__pycache__\_sysconfig.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\locations\__pycache__\base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\locations\_distutils.py, code is 109, comment is 18, blank is 26.
+venv-dir\env\Lib\site-packages\pip\_internal\locations\_sysconfig.py, code is 125, comment is 20, blank is 36.
+venv-dir\env\Lib\site-packages\pip\_internal\locations\base.py, code is 29, comment is 8, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_internal\main.py, code is 4, comment is 1, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_internal\metadata\__init__.py, code is 18, comment is 0, blank is 14.
+venv-dir\env\Lib\site-packages\pip\_internal\metadata\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\metadata\__pycache__\base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\metadata\__pycache__\pkg_resources.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\metadata\base.py, code is 148, comment is 7, blank is 45.
+venv-dir\env\Lib\site-packages\pip\_internal\metadata\pkg_resources.py, code is 105, comment is 13, blank is 33.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__init__.py, code is 0, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\candidate.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\direct_url.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\format_control.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\index.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\link.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\scheme.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\search_scope.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\selection_prefs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\target_python.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\__pycache__\wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\models\candidate.py, code is 22, comment is 0, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_internal\models\direct_url.py, code is 171, comment is 0, blank is 46.
+venv-dir\env\Lib\site-packages\pip\_internal\models\format_control.py, code is 66, comment is 1, blank is 16.
+venv-dir\env\Lib\site-packages\pip\_internal\models\index.py, code is 19, comment is 3, blank is 9.
+venv-dir\env\Lib\site-packages\pip\_internal\models\link.py, code is 177, comment is 11, blank is 53.
+venv-dir\env\Lib\site-packages\pip\_internal\models\scheme.py, code is 16, comment is 0, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_internal\models\search_scope.py, code is 72, comment is 18, blank is 28.
+venv-dir\env\Lib\site-packages\pip\_internal\models\selection_prefs.py, code is 21, comment is 4, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_internal\models\target_python.py, code is 65, comment is 4, blank is 20.
+venv-dir\env\Lib\site-packages\pip\_internal\models\wheel.py, code is 38, comment is 3, blank is 18.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__init__.py, code is 0, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__pycache__\auth.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__pycache__\cache.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__pycache__\download.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__pycache__\lazy_wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__pycache__\session.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__pycache__\utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\network\__pycache__\xmlrpc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\network\auth.py, code is 191, comment is 44, blank is 58.
+venv-dir\env\Lib\site-packages\pip\_internal\network\cache.py, code is 41, comment is 3, blank is 19.
+venv-dir\env\Lib\site-packages\pip\_internal\network\download.py, code is 136, comment is 4, blank is 37.
+venv-dir\env\Lib\site-packages\pip\_internal\network\lazy_wheel.py, code is 116, comment is 9, blank is 48.
+venv-dir\env\Lib\site-packages\pip\_internal\network\session.py, code is 271, comment is 90, blank is 79.
+venv-dir\env\Lib\site-packages\pip\_internal\network\utils.py, code is 38, comment is 47, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_internal\network\xmlrpc.py, code is 47, comment is 0, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\__pycache__\check.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\__pycache__\freeze.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\__pycache__\prepare.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\__pycache__\metadata.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\__pycache__\metadata_legacy.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\__pycache__\wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\__pycache__\wheel_legacy.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\metadata.py, code is 17, comment is 4, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\metadata_legacy.py, code is 49, comment is 8, blank is 17.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\wheel.py, code is 27, comment is 5, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\build\wheel_legacy.py, code is 83, comment is 17, blank is 20.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\check.py, code is 89, comment is 16, blank is 42.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\freeze.py, code is 215, comment is 28, blank is 41.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\install\__init__.py, code is 0, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\install\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\install\__pycache__\editable_legacy.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\install\__pycache__\legacy.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\install\__pycache__\wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\install\editable_legacy.py, code is 35, comment is 11, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\install\legacy.py, code is 99, comment is 23, blank is 23.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\install\wheel.py, code is 488, comment is 167, blank is 141.
+venv-dir\env\Lib\site-packages\pip\_internal\operations\prepare.py, code is 406, comment is 150, blank is 120.
+venv-dir\env\Lib\site-packages\pip\_internal\pyproject.py, code is 86, comment is 48, blank is 34.
+venv-dir\env\Lib\site-packages\pip\_internal\req\__init__.py, code is 71, comment is 1, blank is 18.
+venv-dir\env\Lib\site-packages\pip\_internal\req\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\req\__pycache__\constructors.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\req\__pycache__\req_file.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\req\__pycache__\req_install.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\req\__pycache__\req_set.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\req\__pycache__\req_tracker.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\req\__pycache__\req_uninstall.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\req\constructors.py, code is 334, comment is 19, blank is 82.
+venv-dir\env\Lib\site-packages\pip\_internal\req\req_file.py, code is 336, comment is 38, blank is 91.
+venv-dir\env\Lib\site-packages\pip\_internal\req\req_install.py, code is 585, comment is 77, blank is 119.
+venv-dir\env\Lib\site-packages\pip\_internal\req\req_set.py, code is 122, comment is 19, blank is 35.
+venv-dir\env\Lib\site-packages\pip\_internal\req\req_tracker.py, code is 91, comment is 9, blank is 29.
+venv-dir\env\Lib\site-packages\pip\_internal\req\req_uninstall.py, code is 425, comment is 53, blank is 106.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\__pycache__\base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\base.py, code is 13, comment is 0, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\legacy\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__\resolver.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\legacy\resolver.py, code is 272, comment is 43, blank is 67.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\candidates.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\factory.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\found_candidates.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\provider.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\reporter.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\requirements.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__\resolver.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\base.py, code is 89, comment is 4, blank is 33.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\candidates.py, code is 408, comment is 19, blank is 93.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\factory.py, code is 538, comment is 62, blank is 85.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\found_candidates.py, code is 78, comment is 10, blank is 23.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\provider.py, code is 106, comment is 32, blank is 25.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\reporter.py, code is 39, comment is 0, blank is 30.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\requirements.py, code is 110, comment is 12, blank is 44.
+venv-dir\env\Lib\site-packages\pip\_internal\resolution\resolvelib\resolver.py, code is 182, comment is 17, blank is 43.
+venv-dir\env\Lib\site-packages\pip\_internal\self_outdated_check.py, code is 112, comment is 31, blank is 37.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\_log.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\appdirs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\compatibility_tags.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\datetime.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\deprecation.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\direct_url_helpers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\distutils_args.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\encoding.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\entrypoints.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\filesystem.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\filetypes.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\glibc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\hashes.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\inject_securetransport.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\logging.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\misc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\models.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\packaging.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\parallel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\pkg_resources.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\setuptools_build.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\subprocess.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\temp_dir.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\unpacking.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\urls.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\virtualenv.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\__pycache__\wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\_log.py, code is 11, comment is 2, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\appdirs.py, code is 17, comment is 3, blank is 9.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\compat.py, code is 26, comment is 11, blank is 17.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\compatibility_tags.py, code is 110, comment is 16, blank is 30.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\datetime.py, code is 5, comment is 0, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\deprecation.py, code is 53, comment is 8, blank is 23.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\direct_url_helpers.py, code is 64, comment is 10, blank is 6.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\distutils_args.py, code is 28, comment is 5, blank is 6.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\encoding.py, code is 28, comment is 1, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\entrypoints.py, code is 7, comment is 0, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\filesystem.py, code is 110, comment is 22, blank is 37.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\filetypes.py, code is 19, comment is 5, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\glibc.py, code is 34, comment is 37, blank is 17.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\hashes.py, code is 82, comment is 28, blank is 37.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\inject_securetransport.py, code is 16, comment is 3, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\logging.py, code is 239, comment is 55, blank is 72.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\misc.py, code is 419, comment is 99, blank is 182.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\models.py, code is 23, comment is 8, blank is 15.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\packaging.py, code is 47, comment is 9, blank is 17.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\parallel.py, code is 38, comment is 10, blank is 21.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\pkg_resources.py, code is 21, comment is 8, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\setuptools_build.py, code is 113, comment is 47, blank is 36.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\subprocess.py, code is 169, comment is 69, blank is 36.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\temp_dir.py, code is 131, comment is 41, blank is 53.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\unpacking.py, code is 184, comment is 30, blank is 38.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\urls.py, code is 37, comment is 12, blank is 15.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\virtualenv.py, code is 48, comment is 15, blank is 27.
+venv-dir\env\Lib\site-packages\pip\_internal\utils\wheel.py, code is 94, comment is 18, blank is 50.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\__init__.py, code is 11, comment is 6, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\__pycache__\bazaar.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\__pycache__\git.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\__pycache__\mercurial.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\__pycache__\subversion.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\__pycache__\versioncontrol.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\bazaar.py, code is 72, comment is 9, blank is 15.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\git.py, code is 301, comment is 73, blank is 70.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\mercurial.py, code is 119, comment is 11, blank is 20.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\subversion.py, code is 197, comment is 64, blank is 48.
+venv-dir\env\Lib\site-packages\pip\_internal\vcs\versioncontrol.py, code is 372, comment is 86, blank is 124.
+venv-dir\env\Lib\site-packages\pip\_internal\wheel_builder.py, code is 258, comment is 53, blank is 58.
+venv-dir\env\Lib\site-packages\pip\_vendor\__init__.py, code is 69, comment is 26, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\__pycache__\appdirs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\__pycache__\distro.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\__pycache__\pyparsing.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\__pycache__\six.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\appdirs.py, code is 313, comment is 37, blank is 68.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__init__.py, code is 6, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\_cmd.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\adapter.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\cache.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\controller.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\filewrapper.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\heuristics.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\serialize.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__\wrapper.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\_cmd.py, code is 35, comment is 4, blank is 18.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\adapter.py, code is 83, comment is 17, blank is 25.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\cache.py, code is 23, comment is 0, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\caches\__init__.py, code is 2, comment is 2, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__\file_cache.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__\redis_cache.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\caches\file_cache.py, code is 88, comment is 21, blank is 30.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\caches\redis_cache.py, code is 21, comment is 0, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\compat.py, code is 20, comment is 3, blank is 6.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\controller.py, code is 224, comment is 60, blank is 74.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py, code is 37, comment is 17, blank is 17.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\heuristics.py, code is 69, comment is 0, blank is 39.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\serialize.py, code is 103, comment is 46, blank is 37.
+venv-dir\env\Lib\site-packages\pip\_vendor\cachecontrol\wrapper.py, code is 25, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_vendor\certifi\__init__.py, code is 2, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\certifi\__main__.py, code is 9, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\certifi\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\certifi\__pycache__\__main__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\certifi\__pycache__\core.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\certifi\cacert.pem, code is 4129, comment is 25, blank is 128.
+venv-dir\env\Lib\site-packages\pip\_vendor\certifi\core.py, code is 30, comment is 25, blank is 16.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__init__.py, code is 42, comment is 18, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\big5freq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\big5prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\chardistribution.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\charsetgroupprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\charsetprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\codingstatemachine.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\cp949prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\enums.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\escprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\escsm.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\eucjpprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\euckrfreq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\euckrprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\euctwfreq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\euctwprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\gb2312freq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\gb2312prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\hebrewprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\jisfreq.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\jpcntx.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\langbulgarianmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\langgreekmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\langhebrewmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\langhungarianmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\langrussianmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\langthaimodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\langturkishmodel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\latin1prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\mbcharsetprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\mbcsgroupprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\mbcssm.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\sbcharsetprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\sbcsgroupprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\sjisprober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\universaldetector.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\utf8prober.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\big5freq.py, code is 340, comment is 377, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\big5prober.py, code is 16, comment is 26, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\chardistribution.py, code is 131, comment is 72, blank is 32.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\charsetgroupprober.py, code is 73, comment is 26, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\charsetprober.py, code is 56, comment is 44, blank is 24.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\cli\__init__.py, code is 0, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\cli\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\cli\__pycache__\chardetect.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\cli\chardetect.py, code is 41, comment is 2, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\codingstatemachine.py, code is 29, comment is 29, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\compat.py, code is 13, comment is 20, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\cp949prober.py, code is 16, comment is 28, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\enums.py, code is 35, comment is 0, blank is 21.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\escprober.py, code is 61, comment is 26, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\escsm.py, code is 201, comment is 182, blank is 19.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\eucjpprober.py, code is 54, comment is 27, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\euckrfreq.py, code is 151, comment is 39, blank is 6.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\euckrprober.py, code is 16, comment is 26, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\euctwfreq.py, code is 340, comment is 377, blank is 6.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\euctwprober.py, code is 16, comment is 26, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\gb2312freq.py, code is 239, comment is 39, blank is 6.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\gb2312prober.py, code is 16, comment is 26, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\hebrewprober.py, code is 83, comment is 186, blank is 23.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\jisfreq.py, code is 277, comment is 314, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\jpcntx.py, code is 169, comment is 46, blank is 20.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\langbulgarianmodel.py, code is 4628, comment is 4556, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\langgreekmodel.py, code is 4376, comment is 4306, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\langhebrewmodel.py, code is 4363, comment is 4300, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\langhungarianmodel.py, code is 4628, comment is 4556, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\langrussianmodel.py, code is 5688, comment is 5580, blank is 18.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\langthaimodel.py, code is 4363, comment is 4300, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\langturkishmodel.py, code is 4363, comment is 4300, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\latin1prober.py, code is 97, comment is 83, blank is 14.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\mbcharsetprober.py, code is 48, comment is 28, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\mbcsgroupprober.py, code is 23, comment is 28, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\mbcssm.py, code is 476, comment is 420, blank is 52.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\metadata\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\metadata\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\metadata\__pycache__\languages.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\metadata\languages.py, code is 242, comment is 36, blank is 9.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\sbcharsetprober.py, code is 91, comment is 41, blank is 14.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\sbcsgroupprober.py, code is 41, comment is 39, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\sjisprober.py, code is 55, comment is 26, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\universaldetector.py, code is 161, comment is 55, blank is 26.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\utf8prober.py, code is 44, comment is 26, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_vendor\chardet\version.py, code is 2, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\__init__.py, code is 4, comment is 1, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\__pycache__\ansi.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\__pycache__\ansitowin32.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\__pycache__\initialise.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\__pycache__\win32.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\__pycache__\winterm.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\ansi.py, code is 73, comment is 10, blank is 19.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\ansitowin32.py, code is 174, comment is 49, blank is 39.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\initialise.py, code is 57, comment is 2, blank is 22.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\win32.py, code is 121, comment is 11, blank is 20.
+venv-dir\env\Lib\site-packages\pip\_vendor\colorama\winterm.py, code is 123, comment is 31, blank is 18.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__init__.py, code is 13, comment is 7, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\database.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\index.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\locators.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\manifest.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\markers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\metadata.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\resources.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\scripts.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\__pycache__\wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\__init__.py, code is 0, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\__pycache__\misc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\__pycache__\shutil.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\__pycache__\sysconfig.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\__pycache__\tarfile.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\misc.py, code is 26, comment is 5, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\shutil.py, code is 468, comment is 32, blank is 112.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.cfg, code is 76, comment is 0, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.py, code is 485, comment is 115, blank is 133.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\_backport\tarfile.py, code is 1654, comment is 352, blank is 448.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\compat.py, code is 748, comment is 167, blank is 190.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\database.py, code is 766, comment is 58, blank is 210.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\index.py, code is 286, comment is 19, blank is 48.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\locators.py, code is 819, comment is 115, blank is 138.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\manifest.py, code is 201, comment is 54, blank is 63.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\markers.py, code is 88, comment is 9, blank is 19.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\metadata.py, code is 784, comment is 70, blank is 168.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\resources.py, code is 243, comment is 20, blank is 67.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\scripts.py, code is 282, comment is 90, blank is 45.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\t32.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\t64.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\util.py, code is 1411, comment is 184, blank is 254.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\version.py, code is 480, comment is 108, blank is 128.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\w32.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\w64.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\distlib\wheel.py, code is 813, comment is 100, blank is 114.
+venv-dir\env\Lib\site-packages\pip\_vendor\distro.py, code is 400, comment is 98, blank is 149.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__init__.py, code is 9, comment is 2, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__pycache__\_ihatexml.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__pycache__\_inputstream.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__pycache__\_tokenizer.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__pycache__\_utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__pycache__\constants.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__pycache__\html5parser.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\__pycache__\serializer.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_ihatexml.py, code is 162, comment is 7, blank is 48.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_inputstream.py, code is 609, comment is 105, blank is 149.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_tokenizer.py, code is 1530, comment is 75, blank is 109.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_trie\__init__.py, code is 3, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_trie\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_trie\__pycache__\_base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_trie\__pycache__\py.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_trie\_base.py, code is 26, comment is 2, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_trie\py.py, code is 48, comment is 0, blank is 19.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\_utils.py, code is 99, comment is 15, blank is 37.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\constants.py, code is 2875, comment is 37, blank is 66.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__pycache__\alphabeticalattributes.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__pycache__\base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__pycache__\inject_meta_charset.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__pycache__\lint.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__pycache__\optionaltags.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__pycache__\sanitizer.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\__pycache__\whitespace.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\alphabeticalattributes.py, code is 15, comment is 0, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\base.py, code is 8, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\inject_meta_charset.py, code is 53, comment is 3, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\lint.py, code is 67, comment is 0, blank is 16.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\optionaltags.py, code is 115, comment is 85, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\sanitizer.py, code is 804, comment is 35, blank is 42.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\filters\whitespace.py, code is 24, comment is 1, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\html5parser.py, code is 2063, comment is 189, blank is 438.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\serializer.py, code is 168, comment is 10, blank is 61.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__init__.py, code is 9, comment is 1, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__pycache__\genshi.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__pycache__\sax.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treeadapters\genshi.py, code is 37, comment is 1, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treeadapters\sax.py, code is 36, comment is 0, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__init__.py, code is 24, comment is 3, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__pycache__\base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__pycache__\dom.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__pycache__\etree.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__pycache__\etree_lxml.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\base.py, code is 228, comment is 50, blank is 85.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\dom.py, code is 190, comment is 5, blank is 46.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree.py, code is 269, comment is 10, blank is 66.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree_lxml.py, code is 293, comment is 15, blank is 75.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__init__.py, code is 95, comment is 4, blank is 20.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__pycache__\base.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__pycache__\dom.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__pycache__\etree.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__pycache__\etree_lxml.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__pycache__\genshi.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\base.py, code is 119, comment is 0, blank is 42.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\dom.py, code is 31, comment is 0, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree.py, code is 97, comment is 3, blank is 21.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree_lxml.py, code is 163, comment is 10, blank is 47.
+venv-dir\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\genshi.py, code is 53, comment is 2, blank is 14.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__init__.py, code is 43, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__pycache__\codec.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__pycache__\core.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__pycache__\idnadata.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__pycache__\intranges.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__pycache__\package_data.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\__pycache__\uts46data.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\codec.py, code is 84, comment is 14, blank is 24.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\compat.py, code is 9, comment is 3, blank is 4.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\core.py, code is 305, comment is 29, blank is 78.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\idnadata.py, code is 2048, comment is 1, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\intranges.py, code is 32, comment is 7, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\package_data.py, code is 1, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\idna\uts46data.py, code is 8272, comment is 82, blank is 85.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\__init__.py, code is 24, comment is 2, blank is 15.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\__pycache__\_version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\__pycache__\exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\__pycache__\ext.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\__pycache__\fallback.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\_version.py, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\exceptions.py, code is 17, comment is 2, blank is 20.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\ext.py, code is 93, comment is 5, blank is 38.
+venv-dir\env\Lib\site-packages\pip\_vendor\msgpack\fallback.py, code is 790, comment is 33, blank is 103.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__about__.py, code is 18, comment is 3, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__init__.py, code is 20, comment is 3, blank is 2.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\__about__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\_manylinux.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\_musllinux.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\_structures.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\markers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\requirements.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\specifiers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\tags.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\_manylinux.py, code is 196, comment is 52, blank is 42.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\_musllinux.py, code is 85, comment is 11, blank is 23.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\_structures.py, code is 40, comment is 3, blank is 24.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\markers.py, code is 208, comment is 15, blank is 75.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\requirements.py, code is 97, comment is 10, blank is 33.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\specifiers.py, code is 401, comment is 134, blank is 169.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\tags.py, code is 306, comment is 29, blank is 87.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\utils.py, code is 81, comment is 16, blank is 32.
+venv-dir\env\Lib\site-packages\pip\_vendor\packaging\version.py, code is 294, comment is 58, blank is 115.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__init__.py, code is 2, comment is 1, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\build.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\check.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\colorlog.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\dirtools.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\envbuild.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\meta.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\__pycache__\wrappers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\build.py, code is 88, comment is 1, blank is 28.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\check.py, code is 163, comment is 1, blank is 42.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\colorlog.py, code is 61, comment is 25, blank is 16.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\compat.py, code is 26, comment is 8, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\dirtools.py, code is 33, comment is 0, blank is 9.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\envbuild.py, code is 101, comment is 20, blank is 30.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\in_process\__init__.py, code is 10, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\in_process\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\in_process\__pycache__\_in_process.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\in_process\_in_process.py, code is 217, comment is 9, blank is 78.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\meta.py, code is 64, comment is 0, blank is 23.
+venv-dir\env\Lib\site-packages\pip\_vendor\pep517\wrappers.py, code is 202, comment is 12, blank is 64.
+venv-dir\env\Lib\site-packages\pip\_vendor\pkg_resources\__init__.py, code is 1824, comment is 164, blank is 723.
+venv-dir\env\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__\py31compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\pkg_resources\py31compat.py, code is 15, comment is 3, blank is 5.
+venv-dir\env\Lib\site-packages\pip\_vendor\progress\__init__.py, code is 127, comment is 15, blank is 36.
+venv-dir\env\Lib\site-packages\pip\_vendor\progress\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\progress\__pycache__\bar.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\progress\__pycache__\counter.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\progress\__pycache__\spinner.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\progress\bar.py, code is 55, comment is 17, blank is 22.
+venv-dir\env\Lib\site-packages\pip\_vendor\progress\counter.py, code is 16, comment is 14, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_vendor\progress\spinner.py, code is 16, comment is 14, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_vendor\pyparsing.py, code is 786, comment is 4430, blank is 189.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__init__.py, code is 78, comment is 24, blank is 21.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\__version__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\_internal_utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\adapters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\api.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\auth.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\certs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\cookies.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\help.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\hooks.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\models.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\packages.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\sessions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\status_codes.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\structures.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__pycache__\utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\__version__.py, code is 10, comment is 3, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\_internal_utils.py, code is 17, comment is 1, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\adapters.py, code is 280, comment is 21, blank is 93.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\api.py, code is 26, comment is 4, blank is 28.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\auth.py, code is 194, comment is 28, blank is 72.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\certs.py, code is 3, comment is 2, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\compat.py, code is 36, comment is 19, blank is 15.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\cookies.py, code is 281, comment is 14, blank is 117.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\exceptions.py, code is 33, comment is 2, blank is 77.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\help.py, code is 99, comment is 2, blank is 24.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\hooks.py, code is 14, comment is 2, blank is 8.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\models.py, code is 521, comment is 119, blank is 197.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\packages.py, code is 8, comment is 5, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\sessions.py, code is 353, comment is 119, blank is 155.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\status_codes.py, code is 88, comment is 6, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\structures.py, code is 44, comment is 6, blank is 26.
+venv-dir\env\Lib\site-packages\pip\_vendor\requests\utils.py, code is 516, comment is 90, blank is 219.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\__init__.py, code is 23, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\__pycache__\providers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\__pycache__\reporters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\__pycache__\resolvers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\__pycache__\structs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\compat\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\compat\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\compat\__pycache__\collections_abc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\compat\collections_abc.py, code is 5, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\providers.py, code is 21, comment is 0, blank is 16.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\reporters.py, code is 8, comment is 0, blank is 15.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\resolvers.py, code is 280, comment is 30, blank is 85.
+venv-dir\env\Lib\site-packages\pip\_vendor\resolvelib\structs.py, code is 105, comment is 5, blank is 47.
+venv-dir\env\Lib\site-packages\pip\_vendor\six.py, code is 687, comment is 61, blank is 203.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__init__.py, code is 336, comment is 84, blank is 108.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\_asyncio.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\_utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\after.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\before.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\before_sleep.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\nap.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\retry.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\stop.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\tornadoweb.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__\wait.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\_asyncio.py, code is 61, comment is 20, blank is 13.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\_utils.py, code is 36, comment is 19, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\after.py, code is 19, comment is 15, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\before.py, code is 14, comment is 15, blank is 12.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\before_sleep.py, code is 29, comment is 16, blank is 14.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\nap.py, code is 11, comment is 18, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\retry.py, code is 122, comment is 18, blank is 73.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\stop.py, code is 42, comment is 15, blank is 39.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\tornadoweb.py, code is 37, comment is 15, blank is 9.
+venv-dir\env\Lib\site-packages\pip\_vendor\tenacity\wait.py, code is 81, comment is 20, blank is 45.
+venv-dir\env\Lib\site-packages\pip\_vendor\tomli\__init__.py, code is 3, comment is 1, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\tomli\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tomli\__pycache__\_parser.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tomli\__pycache__\_re.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\tomli\_parser.py, code is 546, comment is 59, blank is 112.
+venv-dir\env\Lib\site-packages\pip\_vendor\tomli\_re.py, code is 65, comment is 9, blank is 11.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__init__.py, code is 49, comment is 11, blank is 16.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\_collections.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\_version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\connection.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\connectionpool.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\fields.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\filepost.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\poolmanager.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\request.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__\response.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\_collections.py, code is 195, comment is 22, blank is 68.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\_version.py, code is 1, comment is 1, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\connection.py, code is 333, comment is 54, blank is 104.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\connectionpool.py, code is 571, comment is 109, blank is 150.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__\_appengine_environ.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__\appengine.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__\ntlmpool.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__\pyopenssl.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__\securetransport.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__\socks.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_appengine_environ.py, code is 15, comment is 0, blank is 14.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__\bindings.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__\low_level.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\bindings.py, code is 380, comment is 10, blank is 95.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\low_level.py, code is 217, comment is 60, blank is 71.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\appengine.py, code is 194, comment is 12, blank is 54.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\ntlmpool.py, code is 89, comment is 7, blank is 24.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\pyopenssl.py, code is 306, comment is 32, blank is 104.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\securetransport.py, code is 543, comment is 138, blank is 142.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\contrib\socks.py, code is 125, comment is 8, blank is 39.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\exceptions.py, code is 127, comment is 10, blank is 164.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\fields.py, code is 125, comment is 7, blank is 47.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\filepost.py, code is 46, comment is 1, blank is 25.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\__init__.py, code is 3, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__\six.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__\makefile.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\backports\makefile.py, code is 39, comment is 1, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\six.py, code is 734, comment is 61, blank is 235.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\ssl_match_hostname\__init__.py, code is 14, comment is 9, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\ssl_match_hostname\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\ssl_match_hostname\__pycache__\_implementation.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\packages\ssl_match_hostname\_implementation.py, code is 83, comment is 36, blank is 28.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\poolmanager.py, code is 263, comment is 59, blank is 96.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\request.py, code is 70, comment is 1, blank is 28.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\response.py, code is 483, comment is 79, blank is 140.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__init__.py, code is 46, comment is 1, blank is 2.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\connection.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\proxy.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\queue.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\request.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\response.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\retry.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\ssl_.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\ssltransport.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\timeout.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\url.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__\wait.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\connection.py, code is 79, comment is 22, blank is 33.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\proxy.py, code is 30, comment is 4, blank is 10.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\queue.py, code is 14, comment is 2, blank is 7.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\request.py, code is 69, comment is 7, blank is 23.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\response.py, code is 44, comment is 21, blank is 21.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\retry.py, code is 315, comment is 30, blank is 95.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\ssl_.py, code is 260, comment is 67, blank is 94.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\ssltransport.py, code is 151, comment is 3, blank is 46.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\timeout.py, code is 84, comment is 12, blank is 39.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\url.py, code is 262, comment is 36, blank is 76.
+venv-dir\env\Lib\site-packages\pip\_vendor\urllib3\util\wait.py, code is 83, comment is 39, blank is 28.
+venv-dir\env\Lib\site-packages\pip\_vendor\vendor.txt, code is 22, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\__init__.py, code is 127, comment is 17, blank is 55.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\__pycache__\labels.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\__pycache__\mklabels.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\__pycache__\tests.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\__pycache__\x_user_defined.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\labels.py, code is 216, comment is 2, blank is 3.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\mklabels.py, code is 24, comment is 17, blank is 9.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\tests.py, code is 116, comment is 9, blank is 25.
+venv-dir\env\Lib\site-packages\pip\_vendor\webencodings\x_user_defined.py, code is 29, comment is 7, blank is 279.
+venv-dir\env\Lib\site-packages\pip\py.typed, code is 2, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pkg_resources\__init__.py, code is 1816, comment is 166, blank is 724.
+venv-dir\env\Lib\site-packages\pkg_resources\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\__pycache__\appdirs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\__pycache__\pyparsing.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\appdirs.py, code is 306, comment is 30, blank is 65.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__about__.py, code is 19, comment is 3, blank is 5.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__init__.py, code is 21, comment is 3, blank is 2.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\__about__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\_compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\_structures.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\_typing.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\markers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\requirements.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\specifiers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\tags.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\_compat.py, code is 16, comment is 11, blank is 11.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\_structures.py, code is 41, comment is 21, blank is 24.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\_typing.py, code is 10, comment is 11, blank is 4.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\markers.py, code is 208, comment is 43, blank is 78.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\requirements.py, code is 92, comment is 15, blank is 34.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\specifiers.py, code is 381, comment is 206, blank is 164.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\tags.py, code is 465, comment is 116, blank is 125.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\utils.py, code is 29, comment is 15, blank is 19.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\packaging\version.py, code is 286, comment is 118, blank is 112.
+venv-dir\env\Lib\site-packages\pkg_resources\_vendor\pyparsing.py, code is 438, comment is 3445, blank is 81.
+venv-dir\env\Lib\site-packages\pkg_resources\extern\__init__.py, code is 43, comment is 0, blank is 21.
+venv-dir\env\Lib\site-packages\pkg_resources\extern\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\tests\data\my-test-package-source\__pycache__\setup.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\pkg_resources\tests\data\my-test-package-source\setup.py, code is 6, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\requests-2.27.1.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\requests-2.27.1.dist-info\LICENSE, code is 149, comment is 1, blank is 26.
+venv-dir\env\Lib\site-packages\requests-2.27.1.dist-info\METADATA, code is 98, comment is 12, blank is 27.
+venv-dir\env\Lib\site-packages\requests-2.27.1.dist-info\RECORD, code is 43, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\requests-2.27.1.dist-info\REQUESTED, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\requests-2.27.1.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\requests-2.27.1.dist-info\WHEEL, code is 5, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\requests\__init__.py, code is 78, comment is 22, blank is 21.
+venv-dir\env\Lib\site-packages\requests\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\__version__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\_internal_utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\adapters.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\api.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\auth.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\certs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\cookies.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\help.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\hooks.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\models.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\packages.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\sessions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\status_codes.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\structures.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__pycache__\utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\requests\__version__.py, code is 10, comment is 3, blank is 1.
+venv-dir\env\Lib\site-packages\requests\_internal_utils.py, code is 17, comment is 1, blank is 10.
+venv-dir\env\Lib\site-packages\requests\adapters.py, code is 285, comment is 21, blank is 93.
+venv-dir\env\Lib\site-packages\requests\api.py, code is 26, comment is 4, blank is 28.
+venv-dir\env\Lib\site-packages\requests\auth.py, code is 194, comment is 28, blank is 72.
+venv-dir\env\Lib\site-packages\requests\certs.py, code is 3, comment is 2, blank is 3.
+venv-dir\env\Lib\site-packages\requests\compat.py, code is 49, comment is 12, blank is 14.
+venv-dir\env\Lib\site-packages\requests\cookies.py, code is 281, comment is 14, blank is 117.
+venv-dir\env\Lib\site-packages\requests\exceptions.py, code is 35, comment is 2, blank is 81.
+venv-dir\env\Lib\site-packages\requests\help.py, code is 102, comment is 2, blank is 24.
+venv-dir\env\Lib\site-packages\requests\hooks.py, code is 14, comment is 2, blank is 8.
+venv-dir\env\Lib\site-packages\requests\models.py, code is 529, comment is 122, blank is 198.
+venv-dir\env\Lib\site-packages\requests\packages.py, code is 16, comment is 5, blank is 5.
+venv-dir\env\Lib\site-packages\requests\sessions.py, code is 347, comment is 119, blank is 151.
+venv-dir\env\Lib\site-packages\requests\status_codes.py, code is 88, comment is 6, blank is 12.
+venv-dir\env\Lib\site-packages\requests\structures.py, code is 44, comment is 6, blank is 26.
+venv-dir\env\Lib\site-packages\requests\utils.py, code is 539, comment is 98, blank is 226.
+venv-dir\env\Lib\site-packages\setuptools-58.1.0.dist-info\entry_points.txt, code is 52, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\setuptools-58.1.0.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools-58.1.0.dist-info\LICENSE, code is 16, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\setuptools-58.1.0.dist-info\METADATA, code is 86, comment is 21, blank is 20.
+venv-dir\env\Lib\site-packages\setuptools-58.1.0.dist-info\RECORD, code is 296, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools-58.1.0.dist-info\REQUESTED, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools-58.1.0.dist-info\top_level.txt, code is 3, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools-58.1.0.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\setuptools\__init__.py, code is 130, comment is 11, blank is 62.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\_deprecation_warning.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\_imp.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\archive_util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\build_meta.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\config.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\dep_util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\depends.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\dist.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\errors.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\extension.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\glob.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\installer.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\launch.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\monkey.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\msvc.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\namespaces.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\package_index.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\py34compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\sandbox.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\unicode_utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\wheel.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\__pycache__\windows_support.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_deprecation_warning.py, code is 1, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__init__.py, code is 3, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\_msvccompiler.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\archive_util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\bcppcompiler.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\ccompiler.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\cmd.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\config.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\core.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\cygwinccompiler.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\debug.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\dep_util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\dir_util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\dist.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\errors.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\extension.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\fancy_getopt.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\file_util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\filelist.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\log.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\msvc9compiler.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\msvccompiler.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\py35compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\py38compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\spawn.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\sysconfig.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\text_file.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\unixccompiler.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\__pycache__\versionpredicate.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\_msvccompiler.py, code is 388, comment is 64, blank is 86.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\archive_util.py, code is 164, comment is 9, blank is 42.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\bcppcompiler.py, code is 241, comment is 83, blank is 68.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\ccompiler.py, code is 513, comment is 167, blank is 168.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\cmd.py, code is 173, comment is 71, blank is 70.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__init__.py, code is 20, comment is 6, blank is 2.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\bdist.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\bdist_dumb.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\bdist_msi.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\bdist_rpm.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\bdist_wininst.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\build.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\build_clib.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\build_ext.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\build_py.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\build_scripts.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\check.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\clean.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\config.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\install.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\install_data.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\install_egg_info.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\install_headers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\install_lib.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\install_scripts.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\py37compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\register.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\sdist.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\__pycache__\upload.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\bdist.py, code is 96, comment is 14, blank is 29.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\bdist_dumb.py, code is 91, comment is 3, blank is 25.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\bdist_msi.py, code is 528, comment is 105, blank is 102.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\bdist_rpm.py, code is 420, comment is 62, blank is 94.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\bdist_wininst.py, code is 254, comment is 64, blank is 59.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\build.py, code is 103, comment is 22, blank is 30.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\build_clib.py, code is 121, comment is 27, blank is 49.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\build_ext.py, code is 456, comment is 157, blank is 113.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\build_py.py, code is 240, comment is 77, blank is 60.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\build_scripts.py, code is 71, comment is 12, blank is 18.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\check.py, code is 101, comment is 7, blank is 27.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\clean.py, code is 57, comment is 6, blank is 11.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\config.py, code is 213, comment is 21, blank is 56.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\install.py, code is 420, comment is 129, blank is 129.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\install_data.py, code is 55, comment is 7, blank is 14.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\install_egg_info.py, code is 41, comment is 3, blank is 20.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\install_headers.py, code is 29, comment is 1, blank is 14.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\install_lib.py, code is 128, comment is 36, blank is 43.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\install_scripts.py, code is 41, comment is 3, blank is 13.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\py37compat.py, code is 19, comment is 0, blank is 8.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\register.py, code is 213, comment is 62, blank is 27.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\sdist.py, code is 297, comment is 51, blank is 88.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\command\upload.py, code is 156, comment is 22, blank is 31.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\config.py, code is 84, comment is 9, blank is 24.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\core.py, code is 104, comment is 25, blank is 35.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\cygwinccompiler.py, code is 207, comment is 117, blank is 62.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\debug.py, code is 2, comment is 2, blank is 1.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\dep_util.py, code is 41, comment is 14, blank is 19.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\dir_util.py, code is 113, comment is 20, blank is 36.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\dist.py, code is 732, comment is 167, blank is 204.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\errors.py, code is 32, comment is 1, blank is 37.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\extension.py, code is 125, comment is 34, blank is 24.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\fancy_getopt.py, code is 241, comment is 90, blank is 86.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\file_util.py, code is 141, comment is 19, blank is 39.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\filelist.py, code is 200, comment is 28, blank is 61.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\log.py, code is 56, comment is 4, blank is 17.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\msvc9compiler.py, code is 525, comment is 109, blank is 101.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\msvccompiler.py, code is 450, comment is 68, blank is 95.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\py35compat.py, code is 13, comment is 0, blank is 5.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\py38compat.py, code is 7, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\spawn.py, code is 56, comment is 7, blank is 19.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\sysconfig.py, code is 345, comment is 83, blank is 88.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\text_file.py, code is 141, comment is 42, blank is 38.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\unixccompiler.py, code is 191, comment is 90, blank is 39.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\util.py, code is 269, comment is 77, blank is 89.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\version.py, code is 114, comment is 98, blank is 52.
+venv-dir\env\Lib\site-packages\setuptools\_distutils\versionpredicate.py, code is 62, comment is 6, blank is 20.
+venv-dir\env\Lib\site-packages\setuptools\_imp.py, code is 61, comment is 4, blank is 18.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\__pycache__\ordered_set.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\__pycache__\pyparsing.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\more_itertools\__init__.py, code is 3, comment is 2, blank is 1.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__\more.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__\recipes.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\more_itertools\more.py, code is 1411, comment is 124, blank is 482.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\more_itertools\recipes.py, code is 198, comment is 4, blank is 96.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\ordered_set.py, code is 160, comment is 17, blank is 62.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__about__.py, code is 19, comment is 3, blank is 5.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__init__.py, code is 21, comment is 3, blank is 2.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\__about__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\_compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\_structures.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\_typing.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\markers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\requirements.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\specifiers.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\tags.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\utils.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__\version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\_compat.py, code is 16, comment is 11, blank is 11.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\_structures.py, code is 41, comment is 21, blank is 24.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\_typing.py, code is 10, comment is 11, blank is 4.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\markers.py, code is 208, comment is 43, blank is 78.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\requirements.py, code is 92, comment is 15, blank is 34.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\specifiers.py, code is 381, comment is 206, blank is 164.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\tags.py, code is 465, comment is 116, blank is 125.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\utils.py, code is 29, comment is 15, blank is 19.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\packaging\version.py, code is 286, comment is 118, blank is 112.
+venv-dir\env\Lib\site-packages\setuptools\_vendor\pyparsing.py, code is 438, comment is 3445, blank is 81.
+venv-dir\env\Lib\site-packages\setuptools\archive_util.py, code is 121, comment is 8, blank is 44.
+venv-dir\env\Lib\site-packages\setuptools\build_meta.py, code is 160, comment is 21, blank is 57.
+venv-dir\env\Lib\site-packages\setuptools\cli-32.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\cli-64.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\cli.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__init__.py, code is 6, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\alias.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\bdist_egg.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\bdist_rpm.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\build_clib.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\build_ext.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\build_py.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\develop.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\dist_info.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\easy_install.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\egg_info.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\install.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\install_egg_info.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\install_lib.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\install_scripts.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\py36compat.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\register.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\rotate.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\saveopts.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\sdist.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\setopt.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\test.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\upload.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\__pycache__\upload_docs.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\command\alias.py, code is 58, comment is 0, blank is 20.
+venv-dir\env\Lib\site-packages\setuptools\command\bdist_egg.py, code is 333, comment is 21, blank is 87.
+venv-dir\env\Lib\site-packages\setuptools\command\bdist_rpm.py, code is 22, comment is 1, blank is 11.
+venv-dir\env\Lib\site-packages\setuptools\command\build_clib.py, code is 56, comment is 13, blank is 19.
+venv-dir\env\Lib\site-packages\setuptools\command\build_ext.py, code is 254, comment is 35, blank is 43.
+venv-dir\env\Lib\site-packages\setuptools\command\build_py.py, code is 158, comment is 12, blank is 45.
+venv-dir\env\Lib\site-packages\setuptools\command\develop.py, code is 129, comment is 14, blank is 37.
+venv-dir\env\Lib\site-packages\setuptools\command\dist_info.py, code is 22, comment is 0, blank is 11.
+venv-dir\env\Lib\site-packages\setuptools\command\easy_install.py, code is 1514, comment is 189, blank is 349.
+venv-dir\env\Lib\site-packages\setuptools\command\egg_info.py, code is 474, comment is 59, blank is 154.
+venv-dir\env\Lib\site-packages\setuptools\command\install.py, code is 82, comment is 12, blank is 25.
+venv-dir\env\Lib\site-packages\setuptools\command\install_egg_info.py, code is 46, comment is 4, blank is 12.
+venv-dir\env\Lib\site-packages\setuptools\command\install_lib.py, code is 72, comment is 6, blank is 29.
+venv-dir\env\Lib\site-packages\setuptools\command\install_scripts.py, code is 53, comment is 5, blank is 12.
+venv-dir\env\Lib\site-packages\setuptools\command\launcher manifest.xml, code is 14, comment is 1, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools\command\py36compat.py, code is 79, comment is 12, blank is 19.
+venv-dir\env\Lib\site-packages\setuptools\command\register.py, code is 10, comment is 0, blank is 8.
+venv-dir\env\Lib\site-packages\setuptools\command\rotate.py, code is 51, comment is 0, blank is 13.
+venv-dir\env\Lib\site-packages\setuptools\command\saveopts.py, code is 13, comment is 1, blank is 9.
+venv-dir\env\Lib\site-packages\setuptools\command\sdist.py, code is 126, comment is 8, blank is 42.
+venv-dir\env\Lib\site-packages\setuptools\command\setopt.py, code is 116, comment is 0, blank is 24.
+venv-dir\env\Lib\site-packages\setuptools\command\test.py, code is 184, comment is 3, blank is 47.
+venv-dir\env\Lib\site-packages\setuptools\command\upload.py, code is 10, comment is 0, blank is 7.
+venv-dir\env\Lib\site-packages\setuptools\command\upload_docs.py, code is 162, comment is 11, blank is 25.
+venv-dir\env\Lib\site-packages\setuptools\config.py, code is 413, comment is 17, blank is 171.
+venv-dir\env\Lib\site-packages\setuptools\dep_util.py, code is 12, comment is 4, blank is 5.
+venv-dir\env\Lib\site-packages\setuptools\depends.py, code is 100, comment is 4, blank is 46.
+venv-dir\env\Lib\site-packages\setuptools\dist.py, code is 720, comment is 51, blank is 244.
+venv-dir\env\Lib\site-packages\setuptools\errors.py, code is 2, comment is 0, blank is 5.
+venv-dir\env\Lib\site-packages\setuptools\extension.py, code is 28, comment is 5, blank is 16.
+venv-dir\env\Lib\site-packages\setuptools\extern\__init__.py, code is 43, comment is 0, blank is 21.
+venv-dir\env\Lib\site-packages\setuptools\extern\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\glob.py, code is 94, comment is 15, blank is 34.
+venv-dir\env\Lib\site-packages\setuptools\gui-32.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\gui-64.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\gui.exe, it is a binary file.
+venv-dir\env\Lib\site-packages\setuptools\installer.py, code is 73, comment is 10, blank is 9.
+venv-dir\env\Lib\site-packages\setuptools\launch.py, code is 19, comment is 2, blank is 9.
+venv-dir\env\Lib\site-packages\setuptools\monkey.py, code is 93, comment is 14, blank is 44.
+venv-dir\env\Lib\site-packages\setuptools\msvc.py, code is 813, comment is 66, blank is 261.
+venv-dir\env\Lib\site-packages\setuptools\namespaces.py, code is 69, comment is 1, blank is 30.
+venv-dir\env\Lib\site-packages\setuptools\package_index.py, code is 765, comment is 86, blank is 212.
+venv-dir\env\Lib\site-packages\setuptools\py34compat.py, code is 10, comment is 0, blank is 3.
+venv-dir\env\Lib\site-packages\setuptools\sandbox.py, code is 350, comment is 8, blank is 125.
+venv-dir\env\Lib\site-packages\setuptools\script (dev).tmpl, code is 6, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools\script.tmpl, code is 3, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\setuptools\unicode_utils.py, code is 27, comment is 2, blank is 11.
+venv-dir\env\Lib\site-packages\setuptools\version.py, code is 5, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\setuptools\wheel.py, code is 169, comment is 17, blank is 25.
+venv-dir\env\Lib\site-packages\setuptools\windows_support.py, code is 16, comment is 0, blank is 7.
+venv-dir\env\Lib\site-packages\soupsieve-2.3.1.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\soupsieve-2.3.1.dist-info\LICENSE.md, code is 17, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\soupsieve-2.3.1.dist-info\METADATA, code is 96, comment is 16, blank is 26.
+venv-dir\env\Lib\site-packages\soupsieve-2.3.1.dist-info\RECORD, code is 21, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\soupsieve-2.3.1.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\soupsieve-2.3.1.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\soupsieve\__init__.py, code is 100, comment is 7, blank is 40.
+venv-dir\env\Lib\site-packages\soupsieve\__meta__.py, code is 99, comment is 15, blank is 43.
+venv-dir\env\Lib\site-packages\soupsieve\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\soupsieve\__pycache__\__meta__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\soupsieve\__pycache__\css_match.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\soupsieve\__pycache__\css_parser.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\soupsieve\__pycache__\css_types.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\soupsieve\__pycache__\pretty.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\soupsieve\__pycache__\util.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\soupsieve\css_match.py, code is 1085, comment is 125, blank is 351.
+venv-dir\env\Lib\site-packages\soupsieve\css_parser.py, code is 900, comment is 241, blank is 179.
+venv-dir\env\Lib\site-packages\soupsieve\css_types.py, code is 241, comment is 5, blank is 166.
+venv-dir\env\Lib\site-packages\soupsieve\pretty.py, code is 61, comment is 1, blank is 10.
+venv-dir\env\Lib\site-packages\soupsieve\py.typed, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\soupsieve\util.py, code is 28, comment is 2, blank is 18.
+venv-dir\env\Lib\site-packages\typing_extensions-4.0.1.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\typing_extensions-4.0.1.dist-info\LICENSE, code is 35, comment is 1, blank is 8.
+venv-dir\env\Lib\site-packages\typing_extensions-4.0.1.dist-info\METADATA, code is 31, comment is 1, blank is 4.
+venv-dir\env\Lib\site-packages\typing_extensions-4.0.1.dist-info\RECORD, code is 7, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\typing_extensions-4.0.1.dist-info\WHEEL, code is 4, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\typing_extensions.py, code is 1229, comment is 155, blank is 307.
+venv-dir\env\Lib\site-packages\urllib3-1.26.8.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\urllib3-1.26.8.dist-info\LICENSE.txt, code is 17, comment is 0, blank is 4.
+venv-dir\env\Lib\site-packages\urllib3-1.26.8.dist-info\METADATA, code is 580, comment is 28, blank is 327.
+venv-dir\env\Lib\site-packages\urllib3-1.26.8.dist-info\RECORD, code is 82, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\urllib3-1.26.8.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\urllib3-1.26.8.dist-info\WHEEL, code is 5, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\urllib3\__init__.py, code is 49, comment is 11, blank is 16.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\_collections.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\_version.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\connection.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\connectionpool.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\exceptions.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\fields.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\filepost.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\poolmanager.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\request.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\__pycache__\response.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\_collections.py, code is 195, comment is 22, blank is 68.
+venv-dir\env\Lib\site-packages\urllib3\_version.py, code is 1, comment is 1, blank is 0.
+venv-dir\env\Lib\site-packages\urllib3\connection.py, code is 351, comment is 59, blank is 111.
+venv-dir\env\Lib\site-packages\urllib3\connectionpool.py, code is 596, comment is 116, blank is 159.
+venv-dir\env\Lib\site-packages\urllib3\contrib\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\urllib3\contrib\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\__pycache__\_appengine_environ.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\__pycache__\appengine.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\__pycache__\ntlmpool.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\__pycache__\pyopenssl.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\__pycache__\securetransport.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\__pycache__\socks.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\_appengine_environ.py, code is 15, comment is 0, blank is 14.
+venv-dir\env\Lib\site-packages\urllib3\contrib\_securetransport\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\urllib3\contrib\_securetransport\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\_securetransport\__pycache__\bindings.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\_securetransport\__pycache__\low_level.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\contrib\_securetransport\bindings.py, code is 380, comment is 10, blank is 95.
+venv-dir\env\Lib\site-packages\urllib3\contrib\_securetransport\low_level.py, code is 218, comment is 60, blank is 71.
+venv-dir\env\Lib\site-packages\urllib3\contrib\appengine.py, code is 194, comment is 12, blank is 54.
+venv-dir\env\Lib\site-packages\urllib3\contrib\ntlmpool.py, code is 89, comment is 7, blank is 24.
+venv-dir\env\Lib\site-packages\urllib3\contrib\pyopenssl.py, code is 306, comment is 32, blank is 104.
+venv-dir\env\Lib\site-packages\urllib3\contrib\securetransport.py, code is 543, comment is 138, blank is 142.
+venv-dir\env\Lib\site-packages\urllib3\contrib\socks.py, code is 125, comment is 8, blank is 39.
+venv-dir\env\Lib\site-packages\urllib3\exceptions.py, code is 127, comment is 10, blank is 164.
+venv-dir\env\Lib\site-packages\urllib3\fields.py, code is 125, comment is 7, blank is 47.
+venv-dir\env\Lib\site-packages\urllib3\filepost.py, code is 46, comment is 1, blank is 25.
+venv-dir\env\Lib\site-packages\urllib3\packages\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\urllib3\packages\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\packages\__pycache__\six.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\packages\backports\__init__.py, code is 0, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\urllib3\packages\backports\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\packages\backports\__pycache__\makefile.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\packages\backports\makefile.py, code is 39, comment is 1, blank is 3.
+venv-dir\env\Lib\site-packages\urllib3\packages\six.py, code is 734, comment is 61, blank is 235.
+venv-dir\env\Lib\site-packages\urllib3\poolmanager.py, code is 263, comment is 59, blank is 96.
+venv-dir\env\Lib\site-packages\urllib3\request.py, code is 70, comment is 1, blank is 28.
+venv-dir\env\Lib\site-packages\urllib3\response.py, code is 483, comment is 79, blank is 140.
+venv-dir\env\Lib\site-packages\urllib3\util\__init__.py, code is 46, comment is 1, blank is 2.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\connection.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\proxy.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\queue.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\request.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\response.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\retry.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\ssl_.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\ssl_match_hostname.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\ssltransport.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\timeout.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\url.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\__pycache__\wait.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\urllib3\util\connection.py, code is 79, comment is 22, blank is 32.
+venv-dir\env\Lib\site-packages\urllib3\util\proxy.py, code is 30, comment is 4, blank is 11.
+venv-dir\env\Lib\site-packages\urllib3\util\queue.py, code is 14, comment is 2, blank is 7.
+venv-dir\env\Lib\site-packages\urllib3\util\request.py, code is 69, comment is 7, blank is 23.
+venv-dir\env\Lib\site-packages\urllib3\util\response.py, code is 44, comment is 21, blank is 21.
+venv-dir\env\Lib\site-packages\urllib3\util\retry.py, code is 329, comment is 30, blank is 99.
+venv-dir\env\Lib\site-packages\urllib3\util\ssl_.py, code is 260, comment is 67, blank is 94.
+venv-dir\env\Lib\site-packages\urllib3\util\ssl_match_hostname.py, code is 83, comment is 38, blank is 28.
+venv-dir\env\Lib\site-packages\urllib3\util\ssltransport.py, code is 151, comment is 3, blank is 46.
+venv-dir\env\Lib\site-packages\urllib3\util\timeout.py, code is 84, comment is 12, blank is 39.
+venv-dir\env\Lib\site-packages\urllib3\util\url.py, code is 262, comment is 36, blank is 76.
+venv-dir\env\Lib\site-packages\urllib3\util\wait.py, code is 83, comment is 39, blank is 28.
+venv-dir\env\Lib\site-packages\yarl-1.7.2.dist-info\INSTALLER, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\yarl-1.7.2.dist-info\LICENSE, code is 10, comment is 1, blank is 3.
+venv-dir\env\Lib\site-packages\yarl-1.7.2.dist-info\METADATA, code is 383, comment is 53, blank is 244.
+venv-dir\env\Lib\site-packages\yarl-1.7.2.dist-info\RECORD, code is 20, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\yarl-1.7.2.dist-info\top_level.txt, code is 1, comment is 0, blank is 0.
+venv-dir\env\Lib\site-packages\yarl-1.7.2.dist-info\WHEEL, code is 4, comment is 0, blank is 1.
+venv-dir\env\Lib\site-packages\yarl\__init__.py, code is 3, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\yarl\__init__.pyi, code is 106, comment is 0, blank is 6.
+venv-dir\env\Lib\site-packages\yarl\__pycache__\__init__.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\yarl\__pycache__\_quoting.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\yarl\__pycache__\_quoting_py.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\yarl\__pycache__\_url.cpython-310.pyc, it is a binary file.
+venv-dir\env\Lib\site-packages\yarl\_quoting.py, code is 13, comment is 6, blank is 5.
+venv-dir\env\Lib\site-packages\yarl\_quoting_c.c, code is 7780, comment is 3197, blank is 725.
+venv-dir\env\Lib\site-packages\yarl\_quoting_c.cp310-win_amd64.pyd, it is a binary file.
+venv-dir\env\Lib\site-packages\yarl\_quoting_c.pyi, code is 14, comment is 0, blank is 2.
+venv-dir\env\Lib\site-packages\yarl\_quoting_c.pyx, code is 305, comment is 0, blank is 66.
+venv-dir\env\Lib\site-packages\yarl\_quoting_py.py, code is 169, comment is 6, blank is 27.
+venv-dir\env\Lib\site-packages\yarl\_url.py, code is 697, comment is 107, blank is 178.
+venv-dir\env\Lib\site-packages\yarl\py.typed, code is 1, comment is 0, blank is 0.
+venv-dir\env\pyvenv.cfg, code is 3, comment is 0, blank is 0.
+venv-dir\env\Scripts\activate, code is 59, comment is 0, blank is 10.
+venv-dir\env\Scripts\activate.bat, code is 25, comment is 0, blank is 9.
+venv-dir\env\Scripts\Activate.ps1, code is 52, comment is 1, blank is 13.
+venv-dir\env\Scripts\chardetect.exe, it is a binary file.
+venv-dir\env\Scripts\deactivate.bat, code is 16, comment is 0, blank is 6.
+venv-dir\env\Scripts\normalizer.exe, it is a binary file.
+venv-dir\env\Scripts\pip.exe, it is a binary file.
+venv-dir\env\Scripts\pip3.10.exe, it is a binary file.
+venv-dir\env\Scripts\pip3.exe, it is a binary file.
+venv-dir\env\Scripts\python.exe, it is a binary file.
+venv-dir\env\Scripts\pythonw.exe, it is a binary file.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-02-11 02:00:25
+count workspace : z:\Home\IT\Code\Python\projects\upel-webscrap
+total files : 16
+total code lines : 434
+total comment lines : 34
+total blank lines : 113
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .py|            417|             34|            108|     96|
+   |            .md|             13|              0|              4|    3.0|
+   |               |              4|              0|              1|   0.92|
+   -------------------------------------------------------------------------
+.gitignore, code is 4, comment is 0, blank is 1.
+constatns.py, code is 1, comment is 0, blank is 1.
+discord_main.py, code is 31, comment is 1, blank is 18.
+lib\__init__.py, code is 2, comment is 0, blank is 0.
+lib\discord\__init__.py, code is 1, comment is 0, blank is 0.
+lib\discord\firewall.py, code is 18, comment is 4, blank is 8.
+lib\discord\follow_user_online.py, code is 75, comment is 6, blank is 17.
+lib\discord\user_upel_connection.py, code is 70, comment is 4, blank is 16.
+lib\upel\__init__.py, code is 1, comment is 0, blank is 0.
+lib\upel\get_data.py, code is 32, comment is 5, blank is 11.
+lib\upel\login.py, code is 21, comment is 1, blank is 3.
+lib\upel\parse.py, code is 67, comment is 11, blank is 25.
+main.py, code is 14, comment is 2, blank is 6.
+README.md, code is 13, comment is 0, blank is 4.
+secrets.py, code is 3, comment is 0, blank is 1.
+test.py, code is 81, comment is 0, blank is 2.
+===============================================================================

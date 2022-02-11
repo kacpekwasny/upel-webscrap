@@ -1,8 +1,6 @@
-# from discord.channel import DMChannel, TextChannel
-from ..upel import login, get_data, parse
-from time import sleep 
 import asyncio
 
+from ..upel import login, get_data, parse
 
 class UpelUser:
     def __init__(self, username, id_) -> None:        
@@ -31,6 +29,8 @@ class FollowUpelUser:
         self.watch_loop_on = True
 
     def is_command(self, text):
+        if text[0] != "-":
+            return False
         for cmd_prefix in ["follow", "unfollow"]:
             if cmd_prefix == text[1:len(cmd_prefix)+1]:
                 return True
@@ -90,7 +90,7 @@ class FollowUpelUser:
                 await u.update_last_login(time_str)
                 await asyncio.sleep(10)
             await asyncio.sleep(1)
-    
+
 
 
 

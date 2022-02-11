@@ -20,5 +20,6 @@ def login(login_url, username, password):
     }
     resp = s.post(login_url, data=data)
     if "Invalid login" in resp.text:
+        print("Failed login!", username, password)
         raise ValueError("Failed login! Invalid login, please try again.")
     return s
