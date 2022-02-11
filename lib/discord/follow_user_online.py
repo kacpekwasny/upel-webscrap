@@ -92,7 +92,7 @@ class FollowUpelUser:
                 followed_by_channel.append(f"{u.username} : {u.last_login_string}")
         if len(followed_by_channel) > 0:
             followed = "\n".join(followed_by_channel)
-            await msg.channel.send(f"This channel follows following users online status:\nusername : last active\n {followed}")
+            await msg.channel.send(f"This channel follows following users online status:\nusername : last active\n{followed}")
             return
         await msg.channel.send("This channel isn't following any users online status right now.\nTo follow use command, example: `-follow 7838`\n`-help` for more info!")
 
