@@ -1,5 +1,4 @@
 from copy import copy
-import json
 
 def less_than_5min(string):
     """return time since last access < 5 minutes"""

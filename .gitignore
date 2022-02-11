@@ -5,3 +5,4 @@ secrets.py
 test.py
 out
 .vscode
+constants.py

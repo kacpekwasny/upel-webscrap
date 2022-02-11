@@ -1,4 +1,3 @@
-from multiprocessing.sharedctypes import Value
 from bs4 import BeautifulSoup
 
 def get_user_profile_data(s, profile_id):
