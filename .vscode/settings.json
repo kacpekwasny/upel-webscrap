@@ -1,3 +1,0 @@
-{
-    "LineCount.excludes": ["**/__pycache__/**", "**/.vscode/**", "**/venv-dir/**"]
-}
