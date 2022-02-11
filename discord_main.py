@@ -34,17 +34,39 @@ async def on_message(message):
 
     print(f"{message.author}: {message.content}")
 
+    if "-help" == message.content[:5]:
+        await message.channel.send(
+"""
+You can follow UPEL users to be notified on this chat/channel when they become online / offline.
+Do this by entering a command: `-follow wxyz` where `wxyz` is the `...profile.php?id=wxyz` in url in the UPEL profile page.
+To unfollow execute command: `-unfollow wxyz`
+To find out about followed users and ther last time online: `-followed`.
+
+You also can get your grades from UPEL, your username and password will not be saved, only kept in RAM, you can allways delete them by executing: `-logout`.
+But first to log in execute command: `-login <UPEL_LOGIN> <UPEL_PASSWORD>`
+_WARNING!!! LOG IN BY SENDING A PRIVATE MESSAGE TO THE BOT!!! DO NOT EXPOSE YOUR CREDENTIALS!_
+
+If you see a message indicating success then you can proceed with the next step:
+`-getgrades <anal/alg/wdsi/pt/ask>` example: `-getgrades pt`.
+"""
+        )
+
     if fuu.is_command(message.content):
         if f.request_incoming_is_spam(message.author.id):
             await message.channel.send("Please wait, too many messages in too short time.")
             print(f"{message.author} is spamming")
             return
     
-        print("running command: ", message.content)
+        if not "-login" in message.content:
+            print("running command: ", message.content)
+        else:
+            print("running command:  -login **** ****")
         await fuu.run_command(message)
+        return
 
     if ucm.is_command(message.content):
         # not checking if this is spam, because everyone will be spamming from their own accounts
-        await ucm.run_command(message)        
+        await ucm.run_command(message)
+        return
 
 client.run(DISCORD_TOKEN)

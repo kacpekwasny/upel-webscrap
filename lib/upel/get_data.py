@@ -49,4 +49,3 @@ def course_grades(s, course_id):
     course = BeautifulSoup(course_page.content, "html.parser")
     grades_table = course.find(id="region-main").find("div").find("table")
     return grades_table
-

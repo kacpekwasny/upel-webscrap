@@ -35,6 +35,11 @@ def string2secs(string):
             secs += int(string[0]) * 60 * 60
             string = string[2:]
 
+        if "hour" in string:
+            secs += 60 * 60
+            string = string[2:]
+
+
         if "mins" in string:
             secs += int(string[0]) * 60
             string = string[2:]
@@ -87,6 +92,7 @@ def parse_grades(grades):
         if len(tds)!=len(columns)-1:
             print("DIFFERENT LENGTH! SOMETHING WRONG")
             print(tds)
+            #continue
 
         row_dict = {}
         for col, val in zip(columns[1:], tds):
@@ -103,3 +109,4 @@ def parse_grades(grades):
     if section:
         parsed_grades[section_name] = section.copy()
     return parsed_grades
+

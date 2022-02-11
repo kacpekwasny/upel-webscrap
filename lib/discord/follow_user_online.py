@@ -1,4 +1,5 @@
 import asyncio
+from copy import copy
 
 from ..upel import login, get_data, parse
 
@@ -18,7 +19,7 @@ class UpelUser:
         if self.previous_status_is_online != new_status_is_online:
             status = "online ✅" if new_status_is_online else "offline ❌"
             for ch in self.channels_following:
-                await ch.send(f"{self.username} has gone {status}!")
+                await ch.send(f"{self.username} has gone {status}")
         self.previous_status_is_online = new_status_is_online
 
 
@@ -31,7 +32,7 @@ class FollowUpelUser:
     def is_command(self, text):
         if text[0] != "-":
             return False
-        for cmd_prefix in ["follow", "unfollow"]:
+        for cmd_prefix in ["follow", "unfollow", "followed"]:
             if cmd_prefix == text[1:len(cmd_prefix)+1]:
                 return True
         return False
@@ -43,13 +44,14 @@ class FollowUpelUser:
         await {
             "follow": self.follow,
             "unfollow": self.unfollow,
+            "followed": self.all_followed,
         }[prefix](msg)
 
     async def follow(self, msg):
         # identifier has to be the id from URL
         identifier = msg.content.split(" ")[1]
         if not identifier.isdigit():
-            await msg.channel.send("Command example: '!follow 7837' where the number is an 'id' that is in URL of user profile.")
+            await msg.channel.send("Command example: `-follow 7837` where the number is an `id` that is in URL of user profile.")
             return
 
         for u in self.followed_users:
@@ -75,16 +77,31 @@ class FollowUpelUser:
         await msg.channel.send(f"Successfully followed user: {user.username}")
 
     async def unfollow(self, msg):
-        identifier = msg.content.split(" ")[1]
+        identifier = " ".join(msg.content.split(" ")[1:])
         for user in self.followed_users:
             if user.username == identifier or identifier == str(user.id):
                 user.channels_following.remove(msg.channel)
-                await msg.channel.send("Successfully stopped following user.")
+                await msg.channel.send(f"Successfully stopped following user {user.username}.")
         print(f"Number of users that are currently followed: {len(self.followed_users)}")
 
+    async def all_followed(self, msg):
+        """respond with list of followed users"""
+        followed_by_channel = []
+        for u in self.followed_users:
+            if msg.channel in u.channels_following:
+                followed_by_channel.append(f"{u.username} : {u.last_login_string}")
+        if len(followed_by_channel) > 0:
+            followed = "\n".join(followed_by_channel)
+            await msg.channel.send(f"This channel follows following users online status:\nusername : last active\n {followed}")
+            return
+        await msg.channel.send("This channel isn't following any users online status right now.\nTo follow use command, example: `-follow 7838`")
+
     async def watch_loop(self):
+        old = []
         while self.watch_loop_on:
-            print("Users being followed: ", [ f"{u.username} : {u.last_login_string}" for u in self.followed_users])
+            if self.followed_users != old:
+                print("Users being followed: ", [ f"{u.username} : {u.last_login_string}" for u in self.followed_users])
+                old = self.followed_users[:]
             for u in self.followed_users:
                 time_str = get_data.time_since_last_login(self.s, u.id)
                 await u.update_last_login(time_str)

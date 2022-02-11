@@ -2,4 +2,4 @@ venv-dir
 __pycache__
 *.html
 secrets.py
-
+test.py
