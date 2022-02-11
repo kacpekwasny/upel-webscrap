@@ -35,9 +35,9 @@ running command:  -follow 9014
 Users being followed:  ['Lisa Armstrong : 5 hours 49 mins', 'Jerry Montenegro : 1 day 6 hours']
 ```
 
-When bot is running you can get the below help by `-help` command:
-```py
-"""You can follow UPEL users to be notified on this chat/channel when they become online / offline.
+When bot is running you can get the below help by `-help` command:  
+
+You can follow UPEL users to be notified on this chat/channel when they become online / offline.
 Do this by entering a command: `-follow wxyz` where `wxyz` is the `...profile.php?id=wxyz` in url in the UPEL profile page.
 To unfollow execute command: `-unfollow wxyz`
 To find out about followed users and ther last time online: `-followed`.
@@ -49,5 +49,4 @@ _WARNING!!! LOG IN BY SENDING A PRIVATE MESSAGE TO THE BOT!!! DO NOT EXPOSE YOUR
 If you see a message indicating success then you can proceed with the next step:
 `-getgrades <anal/alg/wdsi/pt/ask>` example: `-getgrades pt`.
 or `-getgrades wxyz` example: `-getgrades 1477` beacuse 1477 is the course id of Podstawy Telekomunikacji.
-The id can be found in the URL the same way as id of UPEL profile id."""
-```
+The id can be found in the URL the same way as id of UPEL profile id.
