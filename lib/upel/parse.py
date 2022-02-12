@@ -34,7 +34,7 @@ def string2secs(string):
             secs += int(string[0]) * 24 * 60 * 60
             string = string[2:]
         
-        if "days" in string:
+        if "day" in string:
             secs += 24 * 60 * 60
             string = string[2:]
         
