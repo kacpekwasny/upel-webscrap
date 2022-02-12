@@ -1,5 +1,7 @@
 import asyncio
 from copy import copy
+from inspect import trace
+import traceback
 
 from ..upel import login, get_data, parse
 
@@ -103,7 +105,13 @@ class FollowUpelUser:
                 print("Users being followed: ", [ f"{u.username} : {u.last_login_string}" for u in self.followed_users])
                 old = self.followed_users[:]
             for u in self.followed_users:
-                time_str = get_data.time_since_last_login(self.s, u.id)
+                try:
+                    time_str = get_data.time_since_last_login(self.s, u.id)
+                except Exception as e:
+                    traceback.print_exc()
+                    print("watch_loop() error")
+                    print(e)
+
                 await u.update_last_login(time_str)
                 await asyncio.sleep(10)
             await asyncio.sleep(1)
