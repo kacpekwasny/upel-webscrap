@@ -66,11 +66,6 @@ The source code for this bot can be found here: https://github.com/kacpekwasny/u
             await message.channel.send("Please wait, too many messages in too short time.")
             print(f"{message.author} is spamming")
             return
-    
-        if "-login" in message.content:
-            print("running command:  -login **** ****")
-        else:
-            print("running command: ", message.content)
         await fuu.run_command(message)
         return
 
