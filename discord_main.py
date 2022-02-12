@@ -1,7 +1,7 @@
 import asyncio
 import discord
 
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 
 from secrets import DISCORD_TOKEN, USERNAME, PASSWORD, POPULAR_IDS
@@ -32,10 +32,12 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+    dt = datetime.now().strftime("%d/%m/%Y, %H:%M:%S")
+
     if "-login" in message.content:
-        print(f"{message.author}: '-login' in message.content")
+        print(f"{dt} {message.author}: '-login' in message.content")
     else:
-        print(f"{message.author}: {message.content}")
+        print(f"{dt} {message.author}: {message.content}")
 
     if "-help" == message.content[:5]:
         await message.channel.send(
