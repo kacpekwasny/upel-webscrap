@@ -32,7 +32,10 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    print(f"{message.author}: {message.content}")
+    if "-login" in message.content:
+        print(f"{message.author}: '-login' in message.content")
+    else:
+        print(f"{message.author}: {message.content}")
 
     if "-help" == message.content[:5]:
         await message.channel.send(
@@ -64,10 +67,10 @@ The source code for this bot can be found here: https://github.com/kacpekwasny/u
             print(f"{message.author} is spamming")
             return
     
-        if not "-login" in message.content:
-            print("running command: ", message.content)
-        else:
+        if "-login" in message.content:
             print("running command:  -login **** ****")
+        else:
+            print("running command: ", message.content)
         await fuu.run_command(message)
         return
 
