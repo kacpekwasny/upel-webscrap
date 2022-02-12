@@ -25,9 +25,17 @@ def string2secs(string):
         if "years" in string:
             secs += int(string[0]) * 365 * 24 * 60 * 60
             string = string[2:]
+
+        if "year" in string:
+            secs += 365 * 24 * 60 * 60
+            string = string[2:]
         
         if "days" in string:
             secs += int(string[0]) * 24 * 60 * 60
+            string = string[2:]
+        
+        if "days" in string:
+            secs += 24 * 60 * 60
             string = string[2:]
         
         if "hours" in string:
@@ -38,13 +46,19 @@ def string2secs(string):
             secs += 60 * 60
             string = string[2:]
 
-
         if "mins" in string:
             secs += int(string[0]) * 60
+            string = string[2:]
+
+        if "min" in string:
+            secs += 60
             string = string[2:]
         
         if "secs" in string:
             secs += int(string[0])
+
+        if "sec" in string:
+            secs += 1
 
         return secs
     except:
