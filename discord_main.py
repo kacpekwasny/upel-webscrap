@@ -62,6 +62,9 @@ The source code for this bot can be found here: https://github.com/kacpekwasny/u
 """
         # POPULAR_IDS is rather self explanatory, but i do not want to share lastnames publicly
         )
+    message.content = message.content.strip()
+    if message.content and message.content[0] != "-":
+        return
 
     if fuu.is_command(message.content):
         if f.request_incoming_is_spam(message.author.id):
